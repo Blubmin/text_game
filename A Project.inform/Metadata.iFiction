@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>22A5B95F-DA9D-4912-A4B6-6DC5C37522D4</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Connor's Crazy Adventure Fun Time</title>
+            <author>Ian Meeder</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2017</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2017-08-09</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6L02</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6L02</generatorversion>
+            <originated>2017-08-09</originated>
+        </colophon>
+        <glulx>
+            <serial>170809</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6L02</compiler>
+        </glulx>
+    </story>
+</ifindex>
