@@ -611,7 +611,9 @@ Section Fissure
 
 The Fissure is east of the Gondola Station. "[if unvisited]The gondola crawls back along the cable out into the fog. After a few seconds you can no longer see the cliff behind you. All around is the white of fog and those distant waves below you. After a minute or two you see another cliff face emerge from out of the fog. The gondola comes to rest and you quickly jump off.
 
-[end if]You stand at another great alcove, almost identical to the Gondola Station. The giant cable that the gondola car climbs along is fastened into the cliff wall above you, out of reach. To the east is the edge, dropping down into the fog where you hear the distant sound of waves crashing into the cliff. In the west wall of the alcove is a giant fissure jutting into the rock. Crude, rocky stairs descend further into the fissure."
+[end if]You stand at another great alcove, almost identical to the Gondola Station. The giant cable that the gondola car climbs along is fastened into the cliff wall above you, out of reach. To the west is the edge, dropping down into the fog where you hear the distant sound of waves crashing into the cliff. 
+
+In the easten wall of the alcove is a giant fissure jutting into the rock where crude, rocky stairs descend further into the fissure."
 
 Instead of activating the lever when the player is in the Fissure and the gondola car is in the Fissure:
 	say "Nothing happens."
@@ -639,13 +641,17 @@ Section Alcove
 
 The Alcove is south of the Rotunda. "[if unvisited]You come to a staircase that seems endless, but continue up it anyway. After many minutes of climbing, you reach the top where you notice that the corridor made of carved stone has turned into an earthen tunnel. Following it, you are led outside.
 
-[end if]You stand outside in a small alcove built high into a south face of a steep mountain. Looking out, all you can see is a layer of clouds maybe 100 feet below you. There is no way of telling how high up you are.  The sun is low in the sky and is casting long shadows on everything. Following the cliff northwest is a small path which disappears into the rock. North, above you, is the long staircase leading back to the rotunda." 
+[end if]You stand outside in a small alcove built high into a south face of a steep mountain. Looking out, all you can see is a layer of clouds maybe 100 feet below you. There is no way of telling how high up you are.  The sun is low in the sky and is casting long shadows on everything. 
+
+Following the cliff northwest is a small path which disappears into the rock. North, above you, is the long staircase leading back to the rotunda." 
 
 The ambient noise of the Alcove is "the sound of a great wind blowing past you".
 
 Section Dark Cave
 
-The Dark Cave is northwest of the Alcove."[if player does not carry something lit]It is too dark to see anything in this cave. The only thing visible is the opening to the southeast.[otherwise]A small dark cave in the side of the mountain. There are stalagmites and stalactites bursting from the ground and ceiling. To the northwest, the cave appears to continue. To the southwest is the opening leading back to the alcove.[end if]"
+The Dark Cave is northwest of the Alcove."[if player does not carry something lit]It is too dark to see anything in this cave. The only thing visible is the opening to the southeast.[otherwise]A small dark cave in the side of the mountain. There are stalagmites and stalactites bursting from the ground and ceiling. 
+
+To the northwest, the cave appears to continue. To the southeast is the an opening leading outside.[end if]"
 
 The ambient noise of the dark cave is "the sound of the wind whistling past the cave entrance".
 
@@ -683,7 +689,7 @@ Instead of going northwest when the player does not carry something lit and the 
 
 Section Temple Gate
 
-The Temple Gate is northwest of the Dark Cavern.
+The Temple Gate is northwest of the Dark Cavern. "There is no description. Go back southeast."
 
 Chapter Lighthouse
 
@@ -703,7 +709,9 @@ The Windy Path is southeast of the Rotunda. "[if unvisited] You walk through the
 
 The further you travel down, the damper the air feels. Suddenly you begin to smell salt on the air carried on a breeze that rushes past you on the long stair. You notice that the steps here a slightly damp. You can see the opening at the bottom of the stairs and slip on the last step, catching yourself. Hesitantly, you step outside.
 
-[end if]You stand on a small patch of ground almost at sea level protected by a cliff wall from a strong wind rushing past. To the southeast is a narrow path that winds out to a lighthouse on a small island. You can see the whitecaps of a violent ocean all around you. The sky is dark with a brewing storm. The strong wind blows the ocean into a fine mist that periodically sprays your face. Behind you to the northwest is a tall cliff face and the staircase leading back to the Rotunda."
+[end if]You stand on a small patch of ground almost at sea level protected by a cliff wall from a strong wind rushing past. . You can see the whitecaps of a violent ocean all around you. The sky is dark with a brewing storm. The strong wind blows the ocean into a fine mist that periodically sprays your face.
+
+To the southeast is a narrow path that winds out to a lighthouse on a small island. Behind you to the northwest is a tall cliff face and the staircase leading back to the Rotunda."
 
 Instead of going southeast when the player is not wearing something heavy and the player is in the Windy Path:
 	say "You venture out from behind the protection of the cliff. The strength of the wind is able to push you around. If you try to walk out to the lighthouse as you are now, you will most likely get thrown into the sea by the wind."
@@ -750,7 +758,9 @@ Section Reception Lobby
 
 Reception Lobby is northwest of the Rotunda and south of the Hallway. "[if unvisited]You walk down a short hallway and reach a glass door. As you approach it, it slides open for you.
 
-[end if]You are in a larger-than-average sized room. The first thing you notice is the terrible glow of fluorescent bulbs from overhead. Directly in front of you is a receptionist's desk. Behind it hangs a clock. To your left there are several chairs lined up against a wall along with a small table. Against the opposite wall from that is a fish tank. In a corner stands a potted ficus tree. To the north, next to the receptionist's desk is a plain white door. To the southeast is the hallway leading back to the Rotunda."
+[end if]You are in a larger-than-average sized room. The first thing you notice is the terrible glow of fluorescent bulbs from overhead. Directly in front of you is a receptionist's desk. Behind it hangs a clock. To your left there are several chairs lined up against a wall along with a small table. Against the opposite wall from that is a fish tank. In a corner stands a potted ficus tree. 
+
+To the north, next to the receptionist's desk is a plain white door. To the southeast is the hallway leading back to the Rotunda."
 
 The receptionist's desk is scenery and a supporter in the Reception Lobby. "A wooden reception desk. Looks like it came right out of the 90s."
 
