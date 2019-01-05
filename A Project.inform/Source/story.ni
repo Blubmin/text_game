@@ -528,7 +528,7 @@ The metal shelving is plural-named scenery in the storage room. "Sturdy metal sh
 
 The crates are plural-named scenery in the storage room. "They look too heavy to take off the shelves."
 
-The wooden crate is a locked container in the Storage Room. "Sitting in a corner on ground level is a smaller wooden crate." The crowbar unlocks the wooden crate. The description of the wooden crate is "Although smaller than the other crates, it still looks far too heavy to lift.[if locked] The lid is held shut by two dozen nails.[otherwise] It's contents consist entirely of flashlights.[end if]". It is fixed in place.
+The wooden crate is a locked container in the Storage Room. "Sitting in a corner on ground level is a smaller wooden crate." The crowbar unlocks the wooden crate. The description of the wooden crate is "Although smaller than the other crates, it still looks far too heavy to lift.[if locked] The lid is held shut by two dozen nails.[otherwise] It's contents consist entirely of flashlights.[end if]". The wooden crate is fixed in place.
 
 The cache of flashlights are scenery in the wooden crate. The description of the flashlights is "Probably several hundred small black flashlights."
 Understand "flashlight" as the flashlights when the flashlight is not visible.
@@ -690,7 +690,7 @@ Instead of doing something when the player does not carry something lit and the 
 Instead of listening when the player does not carry something lit and the player is in the Dark Cave:
 	say "You hear [the ambient noise of the Dark Cave].";
 	
-Instead of going east when the player does not carry something lit and the player is in Dark Cave:
+Instead of going southeast when the player does not carry something lit and the player is in Dark Cave:
 	now the player is in the Alcove.
 
 Section Dark Cavern
@@ -757,10 +757,18 @@ The Lighthouse Door is inside from the Lighthouse Exterior Front and outside fro
 
 Taped to the front is a faded handwritten note.[else]The door is old but sturdy. You can hear the muffled banging of the screen door on the other side.[end if]"
 
+Instead of unlocking the lighthouse door with the corroded brass key:
+	say "You turn the key in the lock and it snaps in your hand. [if the note is read]Sorry Sam. [end if]But hey, at least the door's unlocked now.";
+	now the Lighthouse Door is unlocked.
+
 The lighthouse keeper's note is a part of the Lighthouse Door. The description of the note is "In a messy script you can make out: 'Dropped key in well. Again. Out to get locksmith. Back when I'm back. - Sam'".
 
 Instead of taking the note:
 	say "If you take the note, then no one else will know what Sam is up to."
+The note can be read or unread. The note is unread.
+
+After examining the note:
+	now the note is read.
 
 Section Lighthouse Exterior Back
 
@@ -835,9 +843,9 @@ Reception Lobby is northwest of the Rotunda and south of the Hallway. "[if unvis
 
 To the north, next to the receptionist's desk is a plain white door. To the southeast is the hallway leading back to the Rotunda."
 
-The receptionist's desk is scenery and a supporter in the Reception Lobby. "A wooden reception desk. Looks like it came right out of the 90s."
+The receptionist's desk is scenery and a supporter in the Reception Lobby. "A wooden reception desk. Looks like it came right out of the 90s. On the front is plastered the ostentatious logo for Business Corp. LLC"
 
-The clock is scenery in the Lobby. "It reads 4:10. The second hand is ticking in place. Someone should get around to fixing that."
+The clock is scenery in the Lobby. "It reads 4:10. The second hand is ticking in place."
 
 The small table is scenery in the Lobby. "A small square table."
 
@@ -855,7 +863,7 @@ On the table is a magazine called the June 2008 Edition of People Magazine. The 
 
 The ambient noise of the Lobby is "the low hum of those terrible fluorescents above you. The constant bubbling from the fish tank filter is, however, comforting"
 
-The plain white door is a door and scenery. "A normal looking door with a card-swipe panel next to it." It is north of the Reception Lobby. It is locked. The ID card unlocks the plain white door.
+The plain white door is a door and scenery. "A normal looking door with a card-swipe panel next to it." It is north of the Reception Lobby. It is locked. The ID card unlocks the plain white door. The printed name of the ID card is "ID card".
 Instead of unlocking the plain white door with the ID card:
 	say "You swipe the card and you hear the click of the door unlocking.";
 	now the player is in the Hallway.
@@ -870,7 +878,7 @@ The Hallway is a room. "You stand in the middle of a thin white hallway lit by f
 Janitor door is a door and scenery. The description of the janitor door is "It says 'Utility Closet'." It is southwest of the Hallway and east of the Utility Closet. The printed name of janitor door is "utility closet door".
 Understand "utility", "closet" as the janitor door.
 
-The ambient noise of the Hallway is "the low hum of those terrible fluorescents above you".
+The ambient noise of the Hallway is "the irritating buzz of those terrible fluorescents above you".
 
 Section Utility Closet
 
@@ -921,11 +929,12 @@ The Lookout Point is northwest of the River Crossing. "[if unvisited]You follow 
 [otherwise]You stand on the edge of a cliff, looking out at the prehistoric jungle. In the distance you see volcanoes and large flying reptiles. [end if]Beneath where you stand, the river goes over a waterfall, flowing southeast toward the River Crossing. The path is quite easy to follow back there."
 
 The one-armed skeleton is a person in the Lookout Point. "Leaning against a nearby rock formation is a one-armed skeleton." The description of the skeleton is "All the flesh has been picked off the bones. The clothes look like they have been torn apart to get to the flesh.[if the skeleton wears something] Around [printed name]'s neck is [the list of things worn by the skeleton].[end if]". The skeleton is dead. The printed name of the skeleton is "the one-armed skeleton".
-The ID card is a necklace worn by the skeleton. The description of the ID card is "An ID card for Michael White. Looks like he has two arms in the picture."
+The ID card is a necklace worn by the skeleton. The description of the ID card is "A Business Corp. LLC ID card for one Michael White. Looks like he has two arms in the picture."
 
 After examining the ID card:
 	now the printed name of the skeleton is "Michael White";
 	now the skeleton is proper-named;
+	now the printed name of the ID card is "Business Corp. LLC ID card".
 
 Understand "Michael", "White", "Michael White" as the skeleton when the skeleton is proper-named.
 
