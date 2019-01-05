@@ -271,7 +271,7 @@
         }
     }
     function showAllResp() {
-        for (var i=0;i<430;i++) {
+        for (var i=0;i<436;i++) {
             showResp('extra'+(1000000+i), 'plus'+(1000000+i));
         }
     }
@@ -648,66 +648,82 @@ A single action in detail.<br><i>About the action rulebooks&nbsp;&nbsp;<a href=i
 <p>The Standard Rules define this action in only a minimal way, simply reporting
 that it has happened.<p><hr><p><b>Typed commands leading to this action</b><p>
 <p class="hangingin2">&quot;rub/shine/polish/sweep/clean/dust/wipe/scrub [something]&quot;</p><p><b>Rules controlling this action</b></p><p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cave</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line666"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cavern</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line683"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line458"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cave</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line681"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cavern</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line698"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line473"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
 <br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor rubbing</i>&nbsp;&nbsp;<font color="#800000">can't rub another person rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3277(code) {
+function pasteCode3275(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t rub another person rule');
 }
 </script>
-<a href="javascript:pasteCode3277()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode3278(code) {
+<a href="javascript:pasteCode3275()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode3276(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t rub another person rule is not listed in the check rubbing rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode3278()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000266', 'plus1000266'); return false;"><img border=0 id="plus1000266" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode3276()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000266', 'plus1000266'); return false;"><img border=0 id="plus1000266" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000266" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[The noun] [might not like] that."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3279(code) {
+function pasteCode3277(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t rub another person rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode3279()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode3280(code) {
+<a href="javascript:pasteCode3277()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode3278(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t rub another person rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode3280()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode3278()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor rubbing</i>&nbsp;&nbsp;<font color="#800000">report rubbing rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3281(code) {
+function pasteCode3279(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('report rubbing rule');
 }
 </script>
-<a href="javascript:pasteCode3281()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode3282(code) {
+<a href="javascript:pasteCode3279()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode3280(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The report rubbing rule is not listed in the report rubbing rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode3282()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000267', 'plus1000267'); return false;"><img border=0 id="plus1000267" src=inform:/doc_images/responses.png></a>&nbsp;2</p>
+<a href="javascript:pasteCode3280()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000267', 'plus1000267'); return false;"><img border=0 id="plus1000267" src=inform:/doc_images/responses.png></a>&nbsp;2</p>
 <div id="extra1000267" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[We] [rub] [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3283(code) {
+function pasteCode3281(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('report rubbing rule response (A)');
+}
+</script>
+<a href="javascript:pasteCode3281()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode3282(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('report rubbing rule response (A) is [=0x0022=]New text.[=0x0022=].');
+}
+</script>
+<a href="javascript:pasteCode3282()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"[The actor] [rub] [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode3283(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('report rubbing rule response (B)');
 }
 </script>
 <a href="javascript:pasteCode3283()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -715,26 +731,10 @@ function pasteCode3284(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('report rubbing rule response (A) is [=0x0022=]New text.[=0x0022=].');
-}
-</script>
-<a href="javascript:pasteCode3284()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"[The actor] [rub] [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3285(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('report rubbing rule response (B)');
-}
-</script>
-<a href="javascript:pasteCode3285()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode3286(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
     myProject.pasteCode('report rubbing rule response (B) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode3286()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode3284()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <br>Click on the speech-bubble icons to see the responses, or here to see all of them:&nbsp;<a href="#" onclick="showAllResp(); return false;"><img border=0 src=inform:/doc_images/responses.png></a>&nbsp;3</p>
 <!--CONTENT ENDS-->
 </font></body></html>

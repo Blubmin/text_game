@@ -1,5 +1,5 @@
 Debugging log of Inform 7
-Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -rules C:\Program Files (x86)\Inform 7\Inform7\Extensions -package C:\Users\Ian\Documents\Inform\text_game\A Project.inform -extension=ulx 
+Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -rules C:\Program Files (x86)\Inform 7\Inform7\Extensions -package C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform -extension=ulx 
 Found language bundle 'English' (built in)
 Found language bundle 'French' (built in)
 Found language bundle 'German' (built in)
@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Inform7\Extens
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 10300 words long.
+I've now read your source text, which is 11014 words long.
 
 
 -----------------------------------------------------
@@ -67,17 +67,19 @@ Phase VIII ... Second pass through assertions
 Phase IX ... Making the model world
 -----------------------------------------------------
 
-Okay, I87'small door' to I80'the rotunda'
+Okay, I87'small door' to I61'rotunda'
 Okay, I87'small door' to I79'storage room'
-Okay, I95'ornate door' to I81'the end'
-Okay, I95'ornate door' to I80'the rotunda'
-Okay, I133'plain white door' to I119'reception lobby'
-Okay, I135'janitor door' to I121'hallway'
-Okay, I135'janitor door' to I120'utility closet'
-Okay, I155'hut door' to I147'hutinterior'
-Okay, I155'hut door' to I146'starry clearing'
-Okay, I164'portal' to I81'the end'
-Okay, I164'portal' to I81'the end'
+Okay, I95'ornate door' to I80'the end'
+Okay, I95'ornate door' to I61'rotunda'
+Okay, I116'lighthouse door' to I111'lighthouse ground floor'
+Okay, I116'lighthouse door' to I109'lighthouse exterior front'
+Okay, I137'plain white door' to I123'reception lobby'
+Okay, I139'janitor door' to I125'hallway'
+Okay, I139'janitor door' to I124'utility closet'
+Okay, I159'hut door' to I151'hutinterior'
+Okay, I159'hut door' to I150'starry clearing'
+Okay, I168'portal' to I80'the end'
+Okay, I168'portal' to I80'the end'
 
 
 -----------------------------------------------------
@@ -188,7 +190,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 114 files written as streams.
-CPU time: 1923 centiseconds
+CPU time: 130 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

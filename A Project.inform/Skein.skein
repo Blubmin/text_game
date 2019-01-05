@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x02EB6648" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x02FC5A50" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02EB6648"/>
-  <item nodeId="node-0x02EB6648">
+  <activeNode nodeId="node-0x02FC5A50"/>
+  <item nodeId="node-0x02FC5A50">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Connor's Crazy Adventure Fun Time&#x000A;An Interactive Fiction by Ian Meeder&#x000A;Release 1 / Serial number 170811 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Fissure&#x000A;The gondola crawls back along the cable out into the fog. After a few seconds you can no longer see the cliff behind you. All around is the white of fog and those distant waves below you. After a minute or two you see another cliff face emerge from out of the fog. The gondola comes to rest and you quickly jump off.&#x000A;&#x000A;You stand at another great alcove, almost identical to the Gondola Station. The giant cable that the gondola car climbs along is fastened into the cliff wall above you, out of reach. To the west is the edge, dropping down into the fog where you hear the distant sound of waves crashing into the cliff.&#x000A;&#x000A;In the easten wall of the alcove is a giant fissure jutting into the rock where crude, rocky stairs descend further into the fissure.&#x000A;&#x000A;The gondola car sits at the loading dock, ready to take you west.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">floor has no description.&#x000A;discarded pair of socks has no description.&#x000A;slightly dirty shirt has no description.&#x000A;computer has no description.&#x000A;Inbox has no description.&#x000A;Unread Email has no description.&#x000A;corroded brass key has no description.&#x000A;fork has no description.&#x000A;knife has no description.&#x000A;dirty plate has no description.&#x000A;wooden pillar has no description.&#x000A;hut door has no description.&#x000A;portal has no description.&#x000A;fountain coins has no description.&#x000A;Your Bedroom has no ambient noise.&#x000A;The End has no ambient noise.&#x000A;Fissure has no ambient noise.&#x000A;Temple Gate has no ambient noise.&#x000A;Lighthouse Exterior - Front has no ambient noise.&#x000A;Lighthouse Exterior Back has no ambient noise.&#x000A;Lighthouse Ground Floor has no ambient noise.&#x000A;Lighthouse Basement has no ambient noise.&#x000A;Break Room has no ambient noise.&#x000A;Printer Room has no ambient noise.&#x000A;Lookout Point has no ambient noise.&#x000A;Primordial Pools has no ambient noise.&#x000A;Starry Clearing has no ambient noise.&#x000A;Hut Interior has no ambient noise.&#x000A;Great Library has no ambient noise.&#x000A;Potion Lab has no ambient noise.&#x000A;Wizzard's Bedroom has no ambient noise.&#x000A;City Center - West has no ambient noise.&#x000A;City Center - Fountain has no ambient noise.&#x000A;City Center - East has no ambient noise.&#x000A;Small Plaza has no ambient noise.&#x000A;Narrow Street has no ambient noise.&#x000A;Rundown Shops has no ambient noise.&#x000A;Back Alley has no ambient noise.&#x000A;Tavern has no ambient noise.&#x000A;Abandoned Building has no ambient noise.&#x000A;Abandoned Building Basement has no ambient noise.&#x000A;Secret Room has no ambient noise.&#x000A;&#x000A;Connor's Crazy Adventure Fun Time&#x000A;An Interactive Fiction by Ian Meeder&#x000A;Release 1 / Serial number 190105 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Rotunda&#x000A;You stand in a huge circular chamber made entirely out of large stones that look like they came right out of the medieval ages. The room is even lit by torches. Looking up, you see the ribbed vaulted ceiling some 100 feet above you. The floor is decorated with various colored mosiac tiles in the shape of a compass rose.&#x000A;&#x000A;There are archways leading to dim corridors to the northwest, northeast, east, southeast, south, and southwest whereas to the west and north are doors. The west door looks to be a normal wooden door you would expect to see in an old castle. You know, from all those castles you've visited. The northern door is at least twice as large as the other door and is ornately carved.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Connor's Crazy Adventure Fun Time&#x000A;An Interactive Fiction by Ian Meeder&#x000A;Release 1 / Serial number 140802 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Your Bedroom&#x000A;A smallish squareish sort of place. Here, you only have your essentials for the summer, such as your computer, your bed, and a hamper in the corner. You even have a poster! You can also hear David from the other room. Then agian, you can hear David from any room. Your room is quite messy. You should clean it sometime soon.&#x000A;&#x000A;On the floor is the discarded pair of socks.&#x000A;&#x000A;On the bed is the slightly dirty shirt.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EF99F0"/>
+      <child nodeId="node-0x02FB1838"/>
     </children>
   </item>
-  <item nodeId="node-0x02EF99F0">
+  <item nodeId="node-0x02FB1838">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">placard: I don't think Martha would appreciate that.&#x000A;Meerkat Edition of National Geographic: Taken.&#x000A;June 2008 Edition of People Magazine: Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">discarded pair of socks: Taken.&#x000A;slightly dirty shirt: Taken.&#x000A;&#x000A;&gt;</commentary>
@@ -21,10 +21,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EA90D0"/>
+      <child nodeId="node-0x0300A420"/>
     </children>
   </item>
-  <item nodeId="node-0x02EA90D0">
+  <item nodeId="node-0x0300A420">
     <command xml:space="preserve">turn on computer</command>
     <result xml:space="preserve">You switch the computer on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You switch the computer on.&#x000A;&#x000A;&gt;</commentary>
@@ -32,10 +32,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EAF630"/>
+      <child nodeId="node-0x0300A490"/>
     </children>
   </item>
-  <item nodeId="node-0x02EAF630">
+  <item nodeId="node-0x0300A490">
     <command xml:space="preserve">read email</command>
     <result xml:space="preserve">From: Ian Meeder [mailto:imeeder@cox.net]&#x000A;Sent: Friday, August 01, 2014 1:16 AM&#x000A;To: imeeder@cox.net&#x000A;Subject: A gift for you.&#x000A;&#x000A;Just think what will come around on your actual birthday! O_o&#x000A;&#x000A;-Blubbers&#x000A;&#x000A;As you read the email you start to feel a little woozy.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">From: Ian Meeder [mailto:imeeder@cox.net]&#x000A;Sent: Friday, August 01, 2014 1:16 AM&#x000A;To: imeeder@cox.net&#x000A;Subject: A gift for you.&#x000A;&#x000A;Just think what will come around on your actual birthday! O_o&#x000A;&#x000A;-Blubbers&#x000A;&#x000A;As you read the email you start to feel a little woozy.&#x000A;&#x000A;&gt;</commentary>
@@ -43,10 +43,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EAF6A0"/>
+      <child nodeId="node-0x0300AB10"/>
     </children>
   </item>
-  <item nodeId="node-0x02EAF6A0">
+  <item nodeId="node-0x0300AB10">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">The world is starting to spin again. You do not enjoy this.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">The world is starting to spin again. You do not enjoy this.&#x000A;&#x000A;&gt;</commentary>
@@ -54,10 +54,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EAF710"/>
+      <child nodeId="node-0x0300AB80"/>
     </children>
   </item>
-  <item nodeId="node-0x02EAF710">
+  <item nodeId="node-0x0300AB80">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Ugh.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Ugh.&#x000A;&#x000A;&gt;</commentary>
@@ -65,10 +65,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EAF780"/>
+      <child nodeId="node-0x0300ABF0"/>
     </children>
   </item>
-  <item nodeId="node-0x02EAF780">
+  <item nodeId="node-0x0300ABF0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Wait.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Wait.&#x000A;&#x000A;&gt;</commentary>
@@ -76,10 +76,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EFCE20"/>
+      <child nodeId="node-0x0300ADD0"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFCE20">
+  <item nodeId="node-0x0300ADD0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">This doesn't feel right. Not that it usually does, but this is different.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">This doesn't feel right. Not that it usually does, but this is different.&#x000A;&#x000A;&gt;</commentary>
@@ -87,10 +87,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EFD0C0"/>
+      <child nodeId="node-0x0300B878"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFD0C0">
+  <item nodeId="node-0x0300B878">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">The cool white color of your room is being replaced by yellows and browns as your vision beings to spin faster and faster.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">The cool white color of your room is being replaced by yellows and browns as your vision beings to spin faster and faster.&#x000A;&#x000A;&gt;</commentary>
@@ -98,10 +98,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EFD130"/>
+      <child nodeId="node-0x0300B8E8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFD130">
+  <item nodeId="node-0x0300B8E8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">You think you're going to be sick.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You think you're going to be sick.&#x000A;&#x000A;&gt;</commentary>
@@ -109,10 +109,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EFD320"/>
+      <child nodeId="node-0x0300BAD8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFD320">
+  <item nodeId="node-0x0300BAD8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Slowly, as you fight back an overwhelming puking sensation, the spinning stops.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Slowly, as you fight back an overwhelming puking sensation, the spinning stops.&#x000A;&#x000A;&gt;</commentary>
@@ -120,10 +120,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EFD500"/>
+      <child nodeId="node-0x0300BCB8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFD500">
+  <item nodeId="node-0x0300BCB8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">You take a moment to compose yourself before you look at your surroundings.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">You take a moment to compose yourself before you look at your surroundings.&#x000A;&#x000A;&gt;</commentary>
@@ -131,10 +131,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EFD710"/>
+      <child nodeId="node-0x0300BEC8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFD710">
+  <item nodeId="node-0x0300BEC8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">This is definitely not your room. It is cold and made of stone and you don't like it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">This is definitely not your room. It is cold and made of stone and you don't like it.&#x000A;&#x000A;&gt;</commentary>
@@ -142,10 +142,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EFDBC0"/>
+      <child nodeId="node-0x0300C158"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFDBC0">
+  <item nodeId="node-0x0300C158">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">A paper flutters down through the air and lands on the ground infront of you. You notice that it is the email that your good friend Ian sent you. Flipping it over, you read:&#x000A;&#x000A;"P.S. I recommend grabbing some graph paper and a pen - maps can be so useful."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">A paper flutters down through the air and lands on the ground infront of you. You notice that it is the email that your good friend Ian sent you. Flipping it over, you read:&#x000A;&#x000A;"P.S. I recommend grabbing some graph paper and a pen - maps can be so useful."&#x000A;&#x000A;&gt;</commentary>
@@ -153,10 +153,10 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EFEF40"/>
+      <child nodeId="node-0x0300D890"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFEF40">
+  <item nodeId="node-0x0300D890">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">--- Welcome to Connor's Crazy Adventure Fun Time ---&#x000A;&#x000A;The Rotunda&#x000A;A huge circular room made entirely out of large stones that look like they came right out of the medieval ages. The room is even lit by torches. Looking up, you see the ribbed vaulted ceiling some 100 feet above you. The floor is decorated with various colored tiles in the shape of a compass rose. There are archways at each of the cardinal and ordinal directions except for west and north. The eastern door looks to be a normal wooden door you would expect to see in an old castle. The northern door is at least twice as large as the other door and is ornately carved.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">--- Welcome to Connor's Crazy Adventure Fun Time ---&#x000A;&#x000A;Rotunda&#x000A;A huge circular room made entirely out of large stones that look like they came right out of the medieval ages. The room is even lit by torches. Looking up, you see the ribbed vaulted ceiling some 100 feet above you. The floor is decorated with various colored tiles in the shape of a compass rose. There are archways at each of the cardinal and ordinal directions except for west and north. The eastern door looks to be a normal wooden door you would expect to see in an old castle. The northern door is at least twice as large as the other door and is ornately carved.&#x000A;&#x000A;&gt;</commentary>
@@ -164,11 +164,11 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02EFF1E0"/>
-      <child nodeId="node-0x02F01D00"/>
+      <child nodeId="node-0x0300DBA0"/>
+      <child nodeId="node-0x02FCFEF8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF1E0">
+  <item nodeId="node-0x0300DBA0">
     <command xml:space="preserve">x rose</command>
     <result xml:space="preserve">A large compass rose that takes up nearly half of the floor.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -176,10 +176,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF2C0"/>
+      <child nodeId="node-0x0300D970"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF2C0">
+  <item nodeId="node-0x0300D970">
     <command xml:space="preserve">x ornate</command>
     <result xml:space="preserve">A huge double door. It is at least twice your height. The carvings in its face seem to be of the orient. Despite its size, there are two silver handles at waist level for someone of normal proportions.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -187,10 +187,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF330"/>
+      <child nodeId="node-0x0300D660"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF330">
+  <item nodeId="node-0x0300D660">
     <command xml:space="preserve">open ornate</command>
     <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -198,10 +198,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF250"/>
+      <child nodeId="node-0x0300D7B0"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF250">
+  <item nodeId="node-0x0300D7B0">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">Which do you mean, the ornate door or the small door?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -209,10 +209,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF3A0"/>
+      <child nodeId="node-0x0300DC10"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF3A0">
+  <item nodeId="node-0x0300DC10">
     <command xml:space="preserve">open small door</command>
     <result xml:space="preserve">You open the small door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -220,10 +220,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF410"/>
+      <child nodeId="node-0x0300DA50"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF410">
+  <item nodeId="node-0x0300DA50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Gondola Station&#x000A;You walk down a long and winding corridor lit by more torches at a steady slope. Finally you begin to see light from outside and emerge.&#x000A;&#x000A;You are in a huge alcove built into the side of a massive east-facing cliff. Looking out, all you can see is fog in all directions. Below you can hear the distant sound of waves chrashing against the cliff face somewhere below this fog. Above you is a large cable attached to the cliff that stretches out eastward and disappears into the fog. To the west of you is the door leading back to the Rotunda.&#x000A;&#x000A;A metal joint is fassened to the ground next to the loading dock.&#x000A;&#x000A;You can also see a lever handle here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -231,10 +231,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFEED0"/>
+      <child nodeId="node-0x0300DB30"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFEED0">
+  <item nodeId="node-0x0300DB30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Rotunda&#x000A;A huge circular room made entirely out of large stones that look like they came right out of the medieval ages. The room is even lit by torches. Looking up, you see the ribbed vaulted ceiling some 100 feet above you. The floor is decorated with various colored tiles in the shape of a compass rose. There are archways at each of the cardinal and ordinal directions except for west and north. The eastern door looks to be a normal wooden door you would expect to see in an old castle. The northern door is at least twice as large as the other door and is ornately carved.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -242,10 +242,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF100"/>
+      <child nodeId="node-0x0300DC80"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF100">
+  <item nodeId="node-0x0300DC80">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Storage Room&#x000A;A storage room.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -253,10 +253,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF480"/>
+      <child nodeId="node-0x0300DCF0"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF480">
+  <item nodeId="node-0x0300DCF0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Rotunda&#x000A;A huge circular room made entirely out of large stones that look like they came right out of the medieval ages. The room is even lit by torches. Looking up, you see the ribbed vaulted ceiling some 100 feet above you. The floor is decorated with various colored tiles in the shape of a compass rose. There are archways at each of the cardinal and ordinal directions except for west and north. The eastern door looks to be a normal wooden door you would expect to see in an old castle. The northern door is at least twice as large as the other door and is ornately carved.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -264,10 +264,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFEE60"/>
+      <child nodeId="node-0x0300D6D0"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFEE60">
+  <item nodeId="node-0x0300D6D0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Gondola Station&#x000A;You are in a huge alcove built into the side of a massive east-facing cliff. Looking out, all you can see is fog in all directions. Below you can hear the distant sound of waves chrashing against the cliff face somewhere below this fog. Above you is a large cable attached to the cliff that stretches out eastward and disappears into the fog. To the west of you is the door leading back to the Rotunda.&#x000A;&#x000A;A metal joint is fassened to the ground next to the loading dock.&#x000A;&#x000A;You can also see a lever handle here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -275,10 +275,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF4F0"/>
+      <child nodeId="node-0x0300D740"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF4F0">
+  <item nodeId="node-0x0300D740">
     <command xml:space="preserve">x joint</command>
     <result xml:space="preserve">A metal joint that looks like it can be rotated. It seems to be missing a part where there is a large hexagonal hole.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -286,10 +286,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF560"/>
+      <child nodeId="node-0x0300D9E0"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF560">
+  <item nodeId="node-0x0300D9E0">
     <command xml:space="preserve">rotate email</command>
     <result xml:space="preserve">Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -297,10 +297,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFEFB0"/>
+      <child nodeId="node-0x0300D580"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFEFB0">
+  <item nodeId="node-0x0300D580">
     <command xml:space="preserve">take</command>
     <result xml:space="preserve">What do you want to take?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -308,10 +308,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF170"/>
+      <child nodeId="node-0x0300DAC0"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF170">
+  <item nodeId="node-0x0300DAC0">
     <command xml:space="preserve">take handle</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -319,10 +319,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFEDF0"/>
+      <child nodeId="node-0x0300D5F0"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFEDF0">
+  <item nodeId="node-0x0300D5F0">
     <command xml:space="preserve">take joint</command>
     <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -330,10 +330,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF020"/>
+      <child nodeId="node-0x0300D820"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF020">
+  <item nodeId="node-0x0300D820">
     <command xml:space="preserve">attach handle to joint</command>
     <result xml:space="preserve">You attach the handle to the joint.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -341,10 +341,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EFF090"/>
+      <child nodeId="node-0x0300D900"/>
     </children>
   </item>
-  <item nodeId="node-0x02EFF090">
+  <item nodeId="node-0x0300D900">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Gondola Station&#x000A;You are in a huge alcove built into the side of a massive east-facing cliff. Looking out, all you can see is fog in all directions. Below you can hear the distant sound of waves chrashing against the cliff face somewhere below this fog. Above you is a large cable attached to the cliff that stretches out eastward and disappears into the fog. To the west of you is the door leading back to the Rotunda.&#x000A;&#x000A;A lever is fassened to the ground next to the loading dock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -352,10 +352,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02240"/>
+      <child nodeId="node-0x02FCF6A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02240">
+  <item nodeId="node-0x02FCF6A8">
     <command xml:space="preserve">rotate lever</command>
     <result xml:space="preserve">(the lever)&#x000A;It is fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -363,10 +363,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02780"/>
+      <child nodeId="node-0x02FCFBE8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02780">
+  <item nodeId="node-0x02FCFBE8">
     <command xml:space="preserve">x lever</command>
     <result xml:space="preserve">(the lever)&#x000A;The lever is switched off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -374,10 +374,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F01F30"/>
+      <child nodeId="node-0x02FD0358"/>
     </children>
   </item>
-  <item nodeId="node-0x02F01F30">
+  <item nodeId="node-0x02FD0358">
     <command xml:space="preserve">switch lever</command>
     <result xml:space="preserve">(the lever)&#x000A;The lever is now off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -385,10 +385,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F022B0"/>
+      <child nodeId="node-0x02FD00B8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F022B0">
+  <item nodeId="node-0x02FD00B8">
     <command xml:space="preserve">switch lever</command>
     <result xml:space="preserve">(the lever)&#x000A;The lever is now off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -396,10 +396,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F021D0"/>
+      <child nodeId="node-0x02FD0278"/>
     </children>
   </item>
-  <item nodeId="node-0x02F021D0">
+  <item nodeId="node-0x02FD0278">
     <command xml:space="preserve">xlever</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -407,10 +407,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F01E50"/>
+      <child nodeId="node-0x02FCF868"/>
     </children>
   </item>
-  <item nodeId="node-0x02F01E50">
+  <item nodeId="node-0x02FCF868">
     <command xml:space="preserve">x lever</command>
     <result xml:space="preserve">(the lever)&#x000A;The lever is switched off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -418,10 +418,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02390"/>
+      <child nodeId="node-0x02FCF718"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02390">
+  <item nodeId="node-0x02FCF718">
     <command xml:space="preserve">x handle</command>
     <result xml:space="preserve">You see nothing special about the lever handle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -429,10 +429,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02010"/>
+      <child nodeId="node-0x02FCF948"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02010">
+  <item nodeId="node-0x02FCF948">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Gondola Station&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -440,10 +440,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02400"/>
+      <child nodeId="node-0x02FCF788"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02400">
+  <item nodeId="node-0x02FCF788">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Gondola Station&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -451,10 +451,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02160"/>
+      <child nodeId="node-0x02FCF7F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02160">
+  <item nodeId="node-0x02FCF7F8">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Gondola Station&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -462,10 +462,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F01D70"/>
+      <child nodeId="node-0x02FD03C8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F01D70">
+  <item nodeId="node-0x02FD03C8">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Gondola Station&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -473,10 +473,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02710"/>
+      <child nodeId="node-0x02FCFC58"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02710">
+  <item nodeId="node-0x02FCFC58">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Gondola Station&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -484,10 +484,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F028D0"/>
+      <child nodeId="node-0x02FCFE18"/>
     </children>
   </item>
-  <item nodeId="node-0x02F028D0">
+  <item nodeId="node-0x02FCFE18">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Gondola Station&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -495,10 +495,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F024E0"/>
+      <child nodeId="node-0x02FCFF68"/>
     </children>
   </item>
-  <item nodeId="node-0x02F024E0">
+  <item nodeId="node-0x02FCFF68">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Gondola Station&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -506,10 +506,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F029B0"/>
+      <child nodeId="node-0x02FCFD38"/>
     </children>
   </item>
-  <item nodeId="node-0x02F029B0">
+  <item nodeId="node-0x02FCFD38">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Gondola Station&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -517,10 +517,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02A90"/>
+      <child nodeId="node-0x02FD0048"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02A90">
+  <item nodeId="node-0x02FD0048">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">The use of "undo" is forbidden in this game.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -528,10 +528,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02550"/>
+      <child nodeId="node-0x02FCFE88"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02550">
+  <item nodeId="node-0x02FCFE88">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Gondola Station&#x000A;You are in a huge alcove built into the side of a massive east-facing cliff. Looking out, all you can see is fog in all directions. Below you can hear the distant sound of waves chrashing against the cliff face somewhere below this fog. Above you is a large cable attached to the cliff that stretches out eastward and disappears into the fog. To the west of you is the door leading back to the Rotunda.&#x000A;&#x000A;A lever is fassened to the ground next to the loading dock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -539,7 +539,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02F01D00">
+  <item nodeId="node-0x02FCFEF8">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Gondola Station&#x000A;You walk down a long and winding corridor lit by more torches at a steady slope. Finally you begin to see light from outside and emerge.&#x000A;&#x000A;You are in a huge alcove built into the side of a massive east-facing cliff. Looking out, all you can see is fog in all directions. Below you can hear the distant sound of waves chrashing against the cliff face somewhere below this fog. Above you is a large cable attached to the cliff that stretches out eastward and disappears into the fog. To the west of you is the door leading back to the Rotunda.&#x000A;&#x000A;A metal joint is fassened to the ground next to the loading dock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -547,11 +547,11 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F025C0"/>
-      <child nodeId="node-0x02F05C10"/>
+      <child nodeId="node-0x02FCFFD8"/>
+      <child nodeId="node-0x02FD44F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F025C0">
+  <item nodeId="node-0x02FCFFD8">
     <command xml:space="preserve">trun joint</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -559,10 +559,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02630"/>
+      <child nodeId="node-0x02FD0128"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02630">
+  <item nodeId="node-0x02FD0128">
     <command xml:space="preserve">turn joint</command>
     <result xml:space="preserve">You try, but you cannot get enough leverage.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -570,10 +570,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F01DE0"/>
+      <child nodeId="node-0x02FD0198"/>
     </children>
   </item>
-  <item nodeId="node-0x02F01DE0">
+  <item nodeId="node-0x02FD0198">
     <command xml:space="preserve">rotate joint</command>
     <result xml:space="preserve">You try, but you cannot get enough leverage.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -581,10 +581,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F01EC0"/>
+      <child nodeId="node-0x02FD0208"/>
     </children>
   </item>
-  <item nodeId="node-0x02F01EC0">
+  <item nodeId="node-0x02FD0208">
     <command xml:space="preserve">switch joint</command>
     <result xml:space="preserve">You try, but you cannot get enough leverage.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -592,10 +592,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02B70"/>
+      <child nodeId="node-0x02FD0518"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02B70">
+  <item nodeId="node-0x02FD0518">
     <command xml:space="preserve">flip joint</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -603,10 +603,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02C50"/>
+      <child nodeId="node-0x02FD0588"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02C50">
+  <item nodeId="node-0x02FD0588">
     <command xml:space="preserve">take handle</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -614,10 +614,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02B00"/>
+      <child nodeId="node-0x02FD05F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02B00">
+  <item nodeId="node-0x02FD05F8">
     <command xml:space="preserve">attach handle to joint</command>
     <result xml:space="preserve">You attach the handle to the joint.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -625,10 +625,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F02BE0"/>
+      <child nodeId="node-0x02FD04A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F02BE0">
+  <item nodeId="node-0x02FD04A8">
     <command xml:space="preserve">actions</command>
     <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -636,10 +636,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F04FD0"/>
+      <child nodeId="node-0x02FD42C8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F04FD0">
+  <item nodeId="node-0x02FD42C8">
     <command xml:space="preserve">action</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -647,10 +647,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05B30"/>
+      <child nodeId="node-0x02FD4D48"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05B30">
+  <item nodeId="node-0x02FD4D48">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">[looking]&#x000A;Gondola Station&#x000A;You are in a huge alcove built into the side of a massive east-facing cliff. Looking out, all you can see is fog in all directions. Below you can hear the distant sound of waves chrashing against the cliff face somewhere below this fog. Above you is a large cable attached to the cliff that stretches out eastward and disappears into the fog. To the west of you is the door leading back to the Rotunda.&#x000A;&#x000A;A lever is fassened to the ground next to the loading dock.&#x000A;&#x000A;[looking - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -658,10 +658,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F053C0"/>
+      <child nodeId="node-0x02FD4338"/>
     </children>
   </item>
-  <item nodeId="node-0x02F053C0">
+  <item nodeId="node-0x02FD4338">
     <command xml:space="preserve">actions</command>
     <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -669,10 +669,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05740"/>
+      <child nodeId="node-0x02FD48E8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05740">
+  <item nodeId="node-0x02FD48E8">
     <command xml:space="preserve">actions off</command>
     <result xml:space="preserve">Actions listing off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -680,10 +680,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F056D0"/>
+      <child nodeId="node-0x02FD4798"/>
     </children>
   </item>
-  <item nodeId="node-0x02F056D0">
+  <item nodeId="node-0x02FD4798">
     <command xml:space="preserve">x lever</command>
     <result xml:space="preserve">(the lever)&#x000A;A pretty basic looking lever.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -691,10 +691,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05820"/>
+      <child nodeId="node-0x02FD4AA8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05820">
+  <item nodeId="node-0x02FD4AA8">
     <command xml:space="preserve">switch lever</command>
     <result xml:space="preserve">(the lever)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -702,10 +702,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05900"/>
+      <child nodeId="node-0x02FD46B8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05900">
+  <item nodeId="node-0x02FD46B8">
     <command xml:space="preserve">x lever</command>
     <result xml:space="preserve">(the lever)&#x000A;A pretty basic looking lever.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -713,10 +713,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05190"/>
+      <child nodeId="node-0x02FD49C8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05190">
+  <item nodeId="node-0x02FD49C8">
     <command xml:space="preserve">actions</command>
     <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -724,10 +724,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05AC0"/>
+      <child nodeId="node-0x02FD4B88"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05AC0">
+  <item nodeId="node-0x02FD4B88">
     <command xml:space="preserve">switch lever</command>
     <result xml:space="preserve">(the lever)&#x000A;[switching on the lever]&#x000A;[(1) activating the lever]&#x000A;[(1) activating the lever - succeeded]&#x000A;&#x000A;[switching on the lever - failed]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -735,10 +735,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05580"/>
+      <child nodeId="node-0x02FD4418"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05580">
+  <item nodeId="node-0x02FD4418">
     <command xml:space="preserve">x lever</command>
     <result xml:space="preserve">(the lever)&#x000A;[examining the lever]&#x000A;A pretty basic looking lever.&#x000A;&#x000A;[examining the lever - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -746,10 +746,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05510"/>
+      <child nodeId="node-0x02FD4958"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05510">
+  <item nodeId="node-0x02FD4958">
     <command xml:space="preserve">switch lever on</command>
     <result xml:space="preserve">(the lever on)&#x000A;[switching on the lever]&#x000A;[(1) activating the lever]&#x000A;[(1) activating the lever - succeeded]&#x000A;&#x000A;[switching on the lever - failed]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -757,10 +757,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05BA0"/>
+      <child nodeId="node-0x02FD4728"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05BA0">
+  <item nodeId="node-0x02FD4728">
     <command xml:space="preserve">actions off</command>
     <result xml:space="preserve">Actions listing off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -768,10 +768,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05120"/>
+      <child nodeId="node-0x02FD41E8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05120">
+  <item nodeId="node-0x02FD41E8">
     <command xml:space="preserve">switch on lever</command>
     <result xml:space="preserve">(the lever)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -779,10 +779,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F057B0"/>
+      <child nodeId="node-0x02FD4C68"/>
     </children>
   </item>
-  <item nodeId="node-0x02F057B0">
+  <item nodeId="node-0x02FD4C68">
     <command xml:space="preserve">switch on lever</command>
     <result xml:space="preserve">(the lever)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -790,10 +790,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05890"/>
+      <child nodeId="node-0x02FD4CD8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05890">
+  <item nodeId="node-0x02FD4CD8">
     <command xml:space="preserve">switch lever</command>
     <result xml:space="preserve">(the lever)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -801,10 +801,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F04F60"/>
+      <child nodeId="node-0x02FD4488"/>
     </children>
   </item>
-  <item nodeId="node-0x02F04F60">
+  <item nodeId="node-0x02FD4488">
     <command xml:space="preserve">switch lever</command>
     <result xml:space="preserve">(the lever)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -812,10 +812,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05970"/>
+      <child nodeId="node-0x02FD4258"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05970">
+  <item nodeId="node-0x02FD4258">
     <command xml:space="preserve">x lever</command>
     <result xml:space="preserve">(the lever)&#x000A;A pretty basic looking lever.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -823,10 +823,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05200"/>
+      <child nodeId="node-0x02FD4808"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05200">
+  <item nodeId="node-0x02FD4808">
     <command xml:space="preserve">switch lever</command>
     <result xml:space="preserve">(the lever)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -834,10 +834,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05040"/>
+      <child nodeId="node-0x02FD4878"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05040">
+  <item nodeId="node-0x02FD4878">
     <command xml:space="preserve">x lever</command>
     <result xml:space="preserve">(the lever)&#x000A;A pretty basic looking lever.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -845,10 +845,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F050B0"/>
+      <child nodeId="node-0x02FD43A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F050B0">
+  <item nodeId="node-0x02FD43A8">
     <command xml:space="preserve">turn lever</command>
     <result xml:space="preserve">(the lever)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -856,10 +856,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05270"/>
+      <child nodeId="node-0x02FD4A38"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05270">
+  <item nodeId="node-0x02FD4A38">
     <command xml:space="preserve">x lever</command>
     <result xml:space="preserve">(the lever)&#x000A;A pretty basic looking lever.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -867,10 +867,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F059E0"/>
+      <child nodeId="node-0x02FD3FB8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F059E0">
+  <item nodeId="node-0x02FD3FB8">
     <command xml:space="preserve">switch lever</command>
     <result xml:space="preserve">(the lever)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -878,10 +878,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F055F0"/>
+      <child nodeId="node-0x02FD4B18"/>
     </children>
   </item>
-  <item nodeId="node-0x02F055F0">
+  <item nodeId="node-0x02FD4B18">
     <command xml:space="preserve">switch lever</command>
     <result xml:space="preserve">(the lever)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -889,7 +889,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02F05C10">
+  <item nodeId="node-0x02FD44F8">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">The Rotunda&#x000A;A huge circular room made entirely out of large stones that look like they came right out of the medieval ages. The room is even lit by torches. Looking up, you see the ribbed vaulted ceiling some 100 feet above you. The floor is decorated with various colored tiles in the shape of a compass rose. There are archways at each of the cardinal and ordinal directions except for west and north. The eastern door looks to be a normal wooden door you would expect to see in an old castle. The northern door is at least twice as large as the other door and is ornately carved.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -897,10 +897,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05A50"/>
+      <child nodeId="node-0x02FD4028"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05A50">
+  <item nodeId="node-0x02FD4028">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first opening the small door)&#x000A;&#x000A;Storage Room&#x000A;A storage room.&#x000A;&#x000A;You can see a flashlight here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -908,10 +908,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F052E0"/>
+      <child nodeId="node-0x02FD4568"/>
     </children>
   </item>
-  <item nodeId="node-0x02F052E0">
+  <item nodeId="node-0x02FD4568">
     <command xml:space="preserve">take</command>
     <result xml:space="preserve">(the flashlight)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -919,10 +919,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05350"/>
+      <child nodeId="node-0x02FD4BF8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05350">
+  <item nodeId="node-0x02FD4BF8">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">The Rotunda&#x000A;A huge circular room made entirely out of large stones that look like they came right out of the medieval ages. The room is even lit by torches. Looking up, you see the ribbed vaulted ceiling some 100 feet above you. The floor is decorated with various colored tiles in the shape of a compass rose. There are archways at each of the cardinal and ordinal directions except for west and north. The eastern door looks to be a normal wooden door you would expect to see in an old castle. The northern door is at least twice as large as the other door and is ornately carved.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -930,10 +930,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05430"/>
+      <child nodeId="node-0x02FD4098"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05430">
+  <item nodeId="node-0x02FD4098">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Alcove&#x000A;You come to a staircase that seems endless, but continue up it anyway. After many minutes of climbing, you reach the top where you notice that the corridor made of carved stone has turned into an earthen tunnel. Following it, you are led outside.&#x000A;&#x000A;You stand outside in a small alcove built high into a south face of a steep mountain. Looking out, all you can see is a layer of clouds maybe 100 feet below you. There is no way of telling how high up you are.  The sun is low in the sky and is casting long shadows on everything. Following the cliff northwest is a small path which disappears into into the rock. North, above you, is the long staircase leading back to the rotunda.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -941,10 +941,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05C80"/>
+      <child nodeId="node-0x02FD4108"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05C80">
+  <item nodeId="node-0x02FD4108">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -952,10 +952,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F04EF0"/>
+      <child nodeId="node-0x02FD45D8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F04EF0">
+  <item nodeId="node-0x02FD45D8">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Dark Cave&#x000A;It is too dark to see anything in this cave. The only thing visible is the opening to the southeast.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -963,10 +963,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F054A0"/>
+      <child nodeId="node-0x02FD4178"/>
     </children>
   </item>
-  <item nodeId="node-0x02F054A0">
+  <item nodeId="node-0x02FD4178">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">It is too dark to do that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -974,10 +974,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05660"/>
+      <child nodeId="node-0x02FD4648"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05660">
+  <item nodeId="node-0x02FD4648">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">It is too dark to do that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -985,10 +985,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05DD0"/>
+      <child nodeId="node-0x02FD4DB8"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05DD0">
+  <item nodeId="node-0x02FD4DB8">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">It is too dark to do that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -996,10 +996,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05E40"/>
+      <child nodeId="node-0x02FD4E28"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05E40">
+  <item nodeId="node-0x02FD4E28">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">It is too dark to do that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1007,10 +1007,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05CF0"/>
+      <child nodeId="node-0x02FD4E98"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05CF0">
+  <item nodeId="node-0x02FD4E98">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1018,10 +1018,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02F05D60"/>
+      <child nodeId="node-0x02FD4F08"/>
     </children>
   </item>
-  <item nodeId="node-0x02F05D60">
+  <item nodeId="node-0x02FD4F08">
     <command xml:space="preserve">switch on flashlight</command>
     <result xml:space="preserve">You turn the flashlight on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1029,10 +1029,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC1F38"/>
+      <child nodeId="node-0x02FDA088"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC1F38">
+  <item nodeId="node-0x02FDA088">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Alcove&#x000A;You stand outside in a small alcove built high into a south face of a steep mountain. Looking out, all you can see is a layer of clouds maybe 100 feet below you. There is no way of telling how high up you are.  The sun is low in the sky and is casting long shadows on everything. Following the cliff northwest is a small path which disappears into into the rock. North, above you, is the long staircase leading back to the rotunda.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1040,10 +1040,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC2948"/>
+      <child nodeId="node-0x02FD9988"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC2948">
+  <item nodeId="node-0x02FD9988">
     <command xml:space="preserve">switch on flashlight</command>
     <result xml:space="preserve">The flashlight is already turned on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1051,10 +1051,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC2398"/>
+      <child nodeId="node-0x02FD9FA8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC2398">
+  <item nodeId="node-0x02FD9FA8">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1062,10 +1062,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC1EC8"/>
+      <child nodeId="node-0x02FDA168"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC1EC8">
+  <item nodeId="node-0x02FDA168">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Dark Cave&#x000A;A small dark cave in the side of the mountain. There are stalagmites and stalactites bursting from the ground and ceiling. To the northwest, the cave appears to continue. To the southwest is the opening leading back to the alcove.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1073,10 +1073,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC1FA8"/>
+      <child nodeId="node-0x02FDA328"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC1FA8">
+  <item nodeId="node-0x02FDA328">
     <command xml:space="preserve">turn off flashlight</command>
     <result xml:space="preserve">You turn the flashlight off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1084,10 +1084,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC1C28"/>
+      <child nodeId="node-0x02FDA6A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC1C28">
+  <item nodeId="node-0x02FDA6A8">
     <command xml:space="preserve">jump</command>
     <result xml:space="preserve">It is too dark to do that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1095,10 +1095,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC2478"/>
+      <child nodeId="node-0x02FDA408"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC2478">
+  <item nodeId="node-0x02FDA408">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">It is too dark to do that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1106,10 +1106,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC2638"/>
+      <child nodeId="node-0x02FDA4E8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC2638">
+  <item nodeId="node-0x02FDA4E8">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Alcove&#x000A;You stand outside in a small alcove built high into a south face of a steep mountain. Looking out, all you can see is a layer of clouds maybe 100 feet below you. There is no way of telling how high up you are.  The sun is low in the sky and is casting long shadows on everything. Following the cliff northwest is a small path which disappears into into the rock. North, above you, is the long staircase leading back to the rotunda.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1117,10 +1117,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC2018"/>
+      <child nodeId="node-0x02FDA1D8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC2018">
+  <item nodeId="node-0x02FDA1D8">
     <command xml:space="preserve">wn</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1128,10 +1128,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC2558"/>
+      <child nodeId="node-0x02FD9D08"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC2558">
+  <item nodeId="node-0x02FD9D08">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1139,10 +1139,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC20F8"/>
+      <child nodeId="node-0x02FDA5C8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC20F8">
+  <item nodeId="node-0x02FDA5C8">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1150,10 +1150,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC2788"/>
+      <child nodeId="node-0x02FD9DE8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC2788">
+  <item nodeId="node-0x02FD9DE8">
     <command xml:space="preserve">turn on flashlight</command>
     <result xml:space="preserve">You turn the flashlight on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1161,10 +1161,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC2408"/>
+      <child nodeId="node-0x02FDA018"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC2408">
+  <item nodeId="node-0x02FDA018">
     <command xml:space="preserve">turn off flashlight</command>
     <result xml:space="preserve">You turn the flashlight off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1172,10 +1172,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC25C8"/>
+      <child nodeId="node-0x02FD9918"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC25C8">
+  <item nodeId="node-0x02FD9918">
     <command xml:space="preserve">jump</command>
     <result xml:space="preserve">You jump on the spot.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1183,10 +1183,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC26A8"/>
+      <child nodeId="node-0x02FDA558"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC26A8">
+  <item nodeId="node-0x02FDA558">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Alcove&#x000A;You stand outside in a small alcove built high into a south face of a steep mountain. Looking out, all you can see is a layer of clouds maybe 100 feet below you. There is no way of telling how high up you are.  The sun is low in the sky and is casting long shadows on everything. Following the cliff northwest is a small path which disappears into into the rock. North, above you, is the long staircase leading back to the rotunda.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1194,10 +1194,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC1DE8"/>
+      <child nodeId="node-0x02FD9E58"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC1DE8">
+  <item nodeId="node-0x02FD9E58">
     <command xml:space="preserve">x rod</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1205,10 +1205,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC22B8"/>
+      <child nodeId="node-0x02FDA0F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC22B8">
+  <item nodeId="node-0x02FDA0F8">
     <command xml:space="preserve">x handle</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1216,10 +1216,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC1C98"/>
+      <child nodeId="node-0x02FD99F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC1C98">
+  <item nodeId="node-0x02FD99F8">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1227,10 +1227,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC2868"/>
+      <child nodeId="node-0x02FDA638"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC2868">
+  <item nodeId="node-0x02FDA638">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Dark Cave&#x000A;It is too dark to see anything in this cave. The only thing visible is the opening to the southeast.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1238,10 +1238,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC24E8"/>
+      <child nodeId="node-0x02FDA248"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC24E8">
+  <item nodeId="node-0x02FDA248">
     <command xml:space="preserve">turn on flashlight</command>
     <result xml:space="preserve">You turn the flashlight on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1249,10 +1249,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02EC1E58"/>
+      <child nodeId="node-0x02FDA478"/>
     </children>
   </item>
-  <item nodeId="node-0x02EC1E58">
+  <item nodeId="node-0x02FDA478">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Dark Cave&#x000A;A small dark cave in the side of the mountain. There are stalagmites and stalactites bursting from the ground and ceiling. To the northwest, the cave appears to continue. To the southwest is the opening leading back to the alcove.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>

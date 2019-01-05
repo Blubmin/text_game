@@ -2,7 +2,7 @@
 
 Include Dynamic Tables by Jesse McGrew.
 Include Dynamic Objects by Jesse McGrew.
-The player is in the Fissure.
+The player is in the Rotunda.
 
 Part Game Rules
 
@@ -145,9 +145,11 @@ Section Person
 
 A person can be alive or dead. A person is usually alive.
 
-Section Room
+Section Ambient Noise
 
-A room has some text called the ambient noise. The ambient noise of a room is usually "nothing of interest".
+A room has some text called the ambient noise. The ambient noise of a room is usually "".
+
+A region has some text called the ambient noise. The ambient noise of a region is usually "".
 
 Section Text Object
 
@@ -314,7 +316,14 @@ Check inserting something (called the noun) into something (called the container
 Section Listening
 
 Instead of listening:
-	say "You hear [the ambient noise of the location of the player]."
+	let room be the location of the player;
+	let room noise be the ambient noise of room;
+	if room noise is "":
+		let region be the map region of room;
+		let region noise be the ambient noise of region;
+		say "You hear [region noise].";
+	else:
+		say "You hear [room noise].".
 
 Section Taking
 
@@ -368,6 +377,12 @@ Section Owning
 Owning relates various things to one thing.
 
 The verb to be owned by means the owning relation. The verb to own means the reversed owning relation.
+
+Chapter Rulebooks
+
+Section Going a Direction
+
+The can't go through undescribed doors rule is not listed in any rulebook.
 
 Part The Game
 
@@ -697,24 +712,24 @@ The Lighthouse Area is a region.
 
 The Windy Path, Lighthouse Exterior Front, Lighthouse Exterior Back, Lighthouse Ground Floor, Lighthouse Basement are in the Lighthouse Area.
 
-The storm clouds are a backdrop. "Dark clouds that stretch and cover the entire sky." They are in Windy Path and Lighthouse Exterior. Understand "sky" as the storm clouds.
+The storm clouds are a backdrop. "Dark clouds that stretch and cover the entire sky." They are in Windy Path, Lighthouse Exterior Front, and Lighthouse Exterior Back. Understand "sky" as the storm clouds.
 
-The lighthouse building far is a backdrop. "A typical red and white striped lighthouse.[if off] It doesn't seem to be on. If the storm to come is as bad as you think it is going to be, someone should turn it on soon.[otherwise] The light of the lighthouse passes by every few seconds, partially blinding you.[end if]". The lighthouse building far can be on or off. The lighthouse building is off. It is in Windy Path.
+The lighthouse building far is a backdrop. "A typical red and white striped lighthouse.[if off] It doesn't seem to be on. If the brewing storm is as bad as it looks, someone should turn it on soon.[otherwise] The light of the lighthouse passes by every few seconds, partially blinding you.[end if]". The lighthouse building far can be on or off. The lighthouse building is off. It is in Windy Path.
 
-The lighthouse building near is a backdrop. "Yup, one of those red-white lighthouses. It is pretty beat up from the wind and ocean.[if off] There is no light coming from the top[otherwise] The light is on and passes by every few seconds, illuminating the ocean. There doesn't seem to be anything out there except the waves[end if]." The lighthouse building near is in the Lighthouse Exterior Front and the Lighthouse Exterior Back.
+The lighthouse building near is a backdrop. "Yup, one of those red-white lighthouses. It is pretty beat up from the wind and ocean.[if off] There is no light coming from the top[otherwise] The light is on and passes by every few seconds, illuminating the ocean. There doesn't seem to be anything out there except the waves[end if]." The lighthouse building near can be on or off. The lighthouse building near is off.  The lighthouse building near is in the Lighthouse Exterior Front and the Lighthouse Exterior Back.
 
 Section Windy Path
 
-The Windy Path is southeast of the Rotunda. "[if unvisited] You walk through the archway in the southeast corner of the Rotunda. You find yourself immediately at the top of a long staircase that quickly winds out of sight around a corner. You follow it downward.
+The Windy Path is southeast of the Rotunda. "[if unvisited] You walk through the archway in the southeast corner of the Rotunda. You find yourself immediately at the top of a long staircase that quickly winds out of sight around a corner and follow it downward.
 
-The further you travel down, the damper the air feels. Suddenly you begin to smell salt on the air carried on a breeze that rushes past you on the long stair. You notice that the steps here a slightly damp. You can see the opening at the bottom of the stairs and slip on the last step, catching yourself. Hesitantly, you step outside.
+The further you travel down, the damper the air feels. Suddenly you begin to smell salt on the air carried on a breeze that rushes past. Looking down, you notice that the steps here look slick with moisture. Eventuall you can see the opening at the bottom of the stairs and slip on the last step, barely catching yourself. Hesitantly, you step outside.
 
 [end if]You stand on a small patch of ground almost at sea level protected by a cliff wall from a strong wind rushing past. . You can see the whitecaps of a violent ocean all around you. The sky is dark with a brewing storm. The strong wind blows the ocean into a fine mist that periodically sprays your face.
 
 To the southeast is a narrow path that winds out to a lighthouse on a small island. Behind you to the northwest is a tall cliff face and the staircase leading back to the Rotunda."
 
 Instead of going southeast when the player is not wearing something heavy and the player is in the Windy Path:
-	say "You venture out from behind the protection of the cliff. The strength of the wind is able to push you around. If you try to walk out to the lighthouse as you are now, you will most likely get thrown into the sea by the wind."
+	say "You venture out from behind the protection of the cliff. The strength of the wind is able to push you around. If you try to walk out to the lighthouse as you are now, you will most likely get thrown into the sea by the wind. If only you weren't no light."
 
 The ambient noise of the Windy Path is "the sound of the wind-thrown waves crashing against the winding path. Far away you hear the sporadic rumbling of the storm brewing".
 
@@ -726,21 +741,69 @@ Looking back you can just make out a cliff that climbs several hundred feet into
 
 [end if]You stand on an islet surrounded by the roiling sea. The sky above is a dark gray and you can hear the sound of distant thunder. A storm is on its way. The island is just tall enough to save you from the constant sprays from the ocean waves. Although seemingly made of rocks, there is still grass beneath your feet.
 
-The lighthouse tower stands before you with the stereotypical red and white stripes that all lighthouses seem to come with. There is no light coming from the lighthouse, but the light above the door means there must be some sort of power in the place. The screen door isn't locked down and continunally bangs against the lighthouse.
+The lighthouse tower stands before you with the stereotypical red and white stripes that all lighthouses seem to come with. There is no light coming from the lighthouse, but the light above the door means there must be some sort of power in the place. The screen door isn't latched down and continunally bangs against the lighthouse.
 
 You can make out a pathway that leads southeast around the backside of the lighthouse." The printed name of Lighthouse Exterior Front is "Lighthouse Exterior - Front"
 
+The Lighthouse Door is inside from the Lighthouse Exterior Front and outside from the Lighthouse Ground Floor. It is a door. The Lighthouse Door has a matching key the corroded brass key. The corroded brass key is in The End. The Lighthouse Door is closed. The Lighthouse Door is locked. It is not described. The description of the Lighthouse Door is "[if the player is in Lighthouse Exterior Front]The latch on the screen door is broken, causing it to slam back and forth in the strong winds. Behind is an old wooden door, painted aquamarine but chipped and worn from years of abuse.
+
+Taped to the front is a faded handwritten note.[else]The door is old but sturdy. You can hear the muffled banging of the screen door on the other side.[end if]"
+
+The lighthouse keeper's note is a part of the Lighthouse Door. The description of the note is "In a messy script you can make out: 'Dropped key in well. Again. Out to get locksmith. Back when I'm back. - Sam'".
+
+Instead of taking the note:
+	say "If you take the note, then no one else will know what Sam is up to."
+
 Section Lighthouse Exterior Back
 
-The Lighthouse Exterior Back is southeast of the Lighthouse Exterior Front. "You stand behind the lighthouse on the back side of the tiny island. Here there is a small well with a bucket sitting to its side. There is also a slope leading down to a dock to the southeast from here."
+The Lighthouse Exterior Back is southeast of the Lighthouse Exterior Front. "You stand behind the lighthouse on the back side of the tiny island. Nothing much except patches of grass and a small well. A path leads back northwest to the front of the lighthouse. There is also a slope leading down to a dock to the southeast from here."
 
-The well is scenery in Lighthouse Exterior Back. It is not described. The description of the well is "A small circular well made out of irregular stones and mortar. The thing barely comes up to your knee. Looking down all you see is darkness. You find it hard to believe that there is fresh water down there."
+The well is scenery in Lighthouse Exterior Back. It is not described. The description of the well is "A small circular well made out of irregular stones and mortar. The thing barely comes up to your knee. [if lowered]Looking down you see an old worn rope descend into darkness[else if raised]Looking down you see nothing but darkness[end if]. You find it hard to believe that there is fresh water down there. "
 
-The wooden bucket is a container in the Lighthouse Exterior Back. It is not described. The description of the wooden bucket is "A standard wooden bucket, equipped with standard Hole-in-the-Bottom® technology. Need a bucket that can't hold liquid? Try Hole-in-the-Bottom®!"
+Understand "rope" as the well.
+
+The well can be raised or lowered. The well is lowered.
+
+The wooden bucket is a part of the well. The description of the wooden bucket is "A standard wooden bucket, equipped with standard Hole-in-the-Bottom® technology. Need a bucket that can't hold liquid? Try Hole-in-the-Bottom®!"
+
+The wooden crank is a part of the well. The description of the crank is "An old wooden crank, used to raise and lower the well's bucket." 
+
+Instead of turning the crank:
+	if the well is lowered:
+		say "You turn the wooden crank, pulling up [if the wooden bucket is a part of the well]a wooden bucket[else if the metal bucket is a part of the well]the metal bucket[else]the well's empty rope[end if] from below.";
+		now the well is raised;
+	else if the well is raised:
+		say "You turn the wooden crank, lowering [if the wooden bucket is a part of the well]the wooden bucket[else if the metal bucket is a part of the well]the metal bucket[else]the well's empty rope[end if] into the depths below.";
+		now the well is lowered;
+		if the metal bucket is a part of the well:
+			now corroded brass key is inside the metal bucket.
+
+Instead of taking the wooden bucket when the wooden bucket is a part of the well:
+	if the well is lowered:
+		say "The bucket is far out of reach, best to bring it up first.";
+	if the well is raised:
+		say "You untie the bucket from the well and stash it away for later.";
+		now the player carries the wooden bucket.
+		
+Instead of tying the metal bucket to the well:
+	if the well is lowered:
+		say "The end of the rop is far out of reach, best to bring it up first.";
+	if the well is raised:
+		if the wooden bucket is a part of the well:
+			try taking the wooden bucket;
+		if the metal bucket is not empty:
+			say "You remove the contents of the metal bucket first.";
+			repeat with item running through things contained by the metal bucket:
+				now the player carries item;
+		say "You attach the metal bucket to the rope.";
+		now the metal bucket is a part of the well.
+
+Instead of taking the metal bucket when the metal bucket is a part of the well:
+	say "Sam the Lighthouse Keeper could probably use this bucket more than you.".
 
 Section Lighthosue Ground Floor
 
-The Lighthouse Ground Floor is inside from Lighthouse Exterior Front.
+
 
 Section Lighthouse Basement
 
@@ -882,7 +945,7 @@ Section Shack
 
 The hut door is a door and scenery. It is inside from the Starry Clearing and outside from HutInterior.
 
-HutInterior is a room. The printed name of HutInterior is "Hut Interior". "You stand in the small hut. It is only one room filled with all the necessities of a forest lifestyle. In the center of the hut is a wooden pillar holding the roof up. In one corner sits a small bed made of straw. Against another wall is a lit fireplace which lights most of the room. There is a small wooden table pulled close to the fireplace."
+HutInterior is a room. The printed name of HutInterior is "Hut Interior". "You stand in the small hut. It is only one room filled with all the necessities of a forest lifestyle. In the center of the hut is a wooden pillar holding the roof up. In one corner sits a small bed made of straw. Against another wall is a lit fireplace which illuminates most of the room. There is a small wooden table pulled close to the fireplace."
 
 The lantern is in the HutInterior. "Hanging on a hook on the center pillar is an old oil lantern." The description of the lantern is "One of those really old lanterns that you imagine miners using in the middle ages."
 Instead of taking the lantern:
@@ -1027,3 +1090,15 @@ Abandoned Building Basement is down from Abandoned Building.
 Section Sectret Room
 
 Secret Room is inside from Basement.
+
+Part Testing
+
+When play begins (this is the run property checks at the start of play rule):
+	repeat with item running through things:
+		if description of the item is "":
+			say "[item] has no description.";
+	repeat with room running through rooms:
+		if ambient noise of room is "":
+			let region be the map region of room;
+			if ambient noise of region is "":
+				say "[room] has no ambient noise."

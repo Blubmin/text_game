@@ -271,7 +271,7 @@
         }
     }
     function showAllResp() {
-        for (var i=0;i<430;i++) {
+        for (var i=0;i<436;i++) {
             showResp('extra'+(1000000+i), 'plus'+(1000000+i));
         }
     }
@@ -654,151 +654,168 @@ If that going action succeeds, then the original pushing it to action
 stops; it's only if that fails that we run on into the 'block pushing in
 directions rule', which then puts an end to the matter.<p><hr><p><b>Typed commands leading to this action</b><p>
 <p class="hangingin2">&quot;push/move/shift/clear/press [something] [direction]&quot;</p><p class="hangingin2">&quot;push/move/shift/clear/press [something] to [direction]&quot;</p><p><b>Rules controlling this action</b></p><p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cave</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line666"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cavern</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line683"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line458"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cave</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line681"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cavern</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line698"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line473"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
 <br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor pushing something to</i>&nbsp;&nbsp;<font color="#800000">can't push unpushable things rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3185(code) {
+function pasteCode3183(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push unpushable things rule');
 }
 </script>
-<a href="javascript:pasteCode3185()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode3186(code) {
+<a href="javascript:pasteCode3183()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode3184(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t push unpushable things rule is not listed in the check pushing it to rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode3186()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000244', 'plus1000244'); return false;"><img border=0 id="plus1000244" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode3184()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000244', 'plus1000244'); return false;"><img border=0 id="plus1000244" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000244" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[The noun] [cannot] be pushed from place to place."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3187(code) {
+function pasteCode3185(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push unpushable things rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode3187()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode3188(code) {
+<a href="javascript:pasteCode3185()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode3186(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push unpushable things rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode3188()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode3186()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor pushing something to</i>&nbsp;&nbsp;<font color="#800000">can't push to non-directions rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3189(code) {
+function pasteCode3187(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push to non-directions rule');
 }
 </script>
-<a href="javascript:pasteCode3189()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode3190(code) {
+<a href="javascript:pasteCode3187()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode3188(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t push to non-directions rule is not listed in the check pushing it to rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode3190()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000245', 'plus1000245'); return false;"><img border=0 id="plus1000245" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode3188()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000245', 'plus1000245'); return false;"><img border=0 id="plus1000245" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000245" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[regarding the noun][They] [aren't] a direction."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3191(code) {
+function pasteCode3189(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push to non-directions rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode3191()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode3192(code) {
+<a href="javascript:pasteCode3189()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode3190(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push to non-directions rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode3192()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode3190()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor pushing something to</i>&nbsp;&nbsp;<font color="#800000">can't push vertically rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3193(code) {
+function pasteCode3191(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push vertically rule');
 }
 </script>
-<a href="javascript:pasteCode3193()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode3194(code) {
+<a href="javascript:pasteCode3191()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode3192(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t push vertically rule is not listed in the check pushing it to rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode3194()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000246', 'plus1000246'); return false;"><img border=0 id="plus1000246" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode3192()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000246', 'plus1000246'); return false;"><img border=0 id="plus1000246" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000246" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[The noun] [cannot] be pushed up or down."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3195(code) {
+function pasteCode3193(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push vertically rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode3195()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode3196(code) {
+<a href="javascript:pasteCode3193()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode3194(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push vertically rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode3196()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode3194()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor pushing something to</i>&nbsp;&nbsp;<font color="#800000">can't push from within rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3197(code) {
+function pasteCode3195(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push from within rule');
 }
 </script>
-<a href="javascript:pasteCode3197()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode3198(code) {
+<a href="javascript:pasteCode3195()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode3196(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t push from within rule is not listed in the check pushing it to rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode3198()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000247', 'plus1000247'); return false;"><img border=0 id="plus1000247" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode3196()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000247', 'plus1000247'); return false;"><img border=0 id="plus1000247" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000247" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[The noun] [cannot] be pushed from here."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3199(code) {
+function pasteCode3197(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push from within rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode3199()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode3200(code) {
+<a href="javascript:pasteCode3197()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode3198(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t push from within rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode3200()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode3198()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor pushing something to</i>&nbsp;&nbsp;<font color="#800000">standard pushing in directions rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3201(code) {
+function pasteCode3199(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('standard pushing in directions rule');
+}
+</script>
+<a href="javascript:pasteCode3199()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode3200(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The standard pushing in directions rule is not listed in the check pushing it to rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode3200()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor pushing something to</i>&nbsp;&nbsp;<font color="#800000">block pushing in directions rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode3201(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('block pushing in directions rule');
 }
 </script>
 <a href="javascript:pasteCode3201()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -806,44 +823,27 @@ function pasteCode3202(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The standard pushing in directions rule is not listed in the check pushing it to rulebook.[=0x000A=]');
-}
-</script>
-<a href="javascript:pasteCode3202()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor pushing something to</i>&nbsp;&nbsp;<font color="#800000">block pushing in directions rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3203(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('block pushing in directions rule');
-}
-</script>
-<a href="javascript:pasteCode3203()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode3204(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
     myProject.pasteCode('The block pushing in directions rule is not listed in the check pushing it to rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode3204()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000249', 'plus1000249'); return false;"><img border=0 id="plus1000249" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode3202()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000249', 'plus1000249'); return false;"><img border=0 id="plus1000249" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000249" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[The noun] [cannot] be pushed from place to place."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode3205(code) {
+function pasteCode3203(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('block pushing in directions rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode3205()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode3206(code) {
+<a href="javascript:pasteCode3203()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode3204(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('block pushing in directions rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode3206()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode3204()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <br>Click on the speech-bubble icons to see the responses, or here to see all of them:&nbsp;<a href="#" onclick="showAllResp(); return false;"><img border=0 src=inform:/doc_images/responses.png></a>&nbsp;5</p>
 <!--CONTENT ENDS-->
 </font></body></html>
