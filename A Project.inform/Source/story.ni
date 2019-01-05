@@ -410,7 +410,7 @@ Instead of examining Email:
 	else:
 		now the email is read.
 	
-Instead of listening when player is in the Bedroom, say "Yup, you can still hear David."	
+The ambient noise of Your Bedroom is "your roommates talking in the other room. Hopefully not about you."	
 	
 [Location]
 Your Bedroom is a room. "You are in your Bedroom. It is a smallish squareish sort of place. Here, you only have your essentials for the summer, such as your computer, your bed, and a hamper in the corner. You even have a poster! Good for you. You can also hear David from the other room. Then again, you can hear David from any room.[if messy] Your room is quite messy. You should clean it sometime soon.[otherwise] Your room is impeccably clean. Much better than the pigsty it was earlier.[end if]". 
@@ -565,17 +565,21 @@ The ornate door is a door and scenery. "A huge double door. It is at least twice
 
 The End is a room.
 
+The ambient noise of The End is "silence."
+
 Section Gondola Station
 
 The gondola car is a vehicle in the fissure. "The gondola car sits at the loading dock, ready to take you [if the player is in the gondola station]east[else]west[end if]." The description of the gondola car is "A modern-looking cable car. It seems to be a little rusted, but no matter."
 
 The Gondola Station is east of the Rotunda. "[if unvisited]You walk down a long and winding corridor lit by more torches at a steady slope. Eventually you come to a metal door behind which you can hear a light breeze. Being adventurous, you open the door and emerge into the soft light on the other side.
 
-[end if]You are in a huge alcove built into the side of a massive east-facing cliff. Looking out, all you can see is fog in all directions. Below you can hear the distant sound of waves crashing against the cliff face somewhere below this fog. Far above you is a thick metal cable fastened to the cliff which stretches out eastward and disappears into the fog. 
+[end if]You are in a huge alcove built into the side of a massive east-facing cliff. Looking out, all you can see is a massive white wall of fog. Far above you is a thick metal cable anchored to the cliff wall which extends out and disappears into fog.
 
 To the west of you is the door leading back to the Rotunda."
 
-The giant cable is a backdrop in the Gondola Station. "A giant cable jutting out of the alcove wall some 30 feet above you."
+The giant cable is a backdrop. It is in the Gondola Station and Fissure. "A thick metal cable jutting out of the alcove wall some 30 feet above you."
+
+The fog is a backdrop. It is in the Gondola Station and Fissure. "An unmoving wall of fog extends in all directions."
 
 The metal joint is a lever in the station. "[if broken]A metal joint [otherwise]A lever [end if]is fastened to the ground next to the loading dock." It is broken.
 The description of the joint is "[if broken]A metal joint that looks like it can be rotated. It seems to be missing a part where there is a large hexagonal hole.[otherwise]A pretty basic looking lever.[end if]".
@@ -607,7 +611,7 @@ Instead of going east when the Gondola Car is not in the Gondola Station and the
 	
 Understand "lever", "handle" as the joint when the joint is fixed.
 
-The ambient noise of the Gondola Station is "the crash of the waves below and the sound of the cable above you creaking as it swags in the wind".
+The ambient noise of the Gondola Station is "almost complete silence except for the occasional sound of the cable creaking and swaying from some unfelt wind".
 
 Instead of going east when the Gondola Car is in the Gondola Station and the player is in Gondola Station:
 	now the metal joint is in the Fissure;
@@ -624,11 +628,13 @@ Instead of going east when the gondola car contains the player and the gondola i
 
 Section Fissure
 
-The Fissure is east of the Gondola Station. "[if unvisited]The gondola crawls back along the cable out into the fog. After a few seconds you can no longer see the cliff behind you. All around is the white of fog and those distant waves below you. After a minute or two you see another cliff face emerge from out of the fog. The gondola comes to rest and you quickly jump off.
+The Fissure is east of the Gondola Station. "[if unvisited]The gondola crawls back along the cable out into the fog. After a few seconds you can no longer see the cliff behind you. All around is the sea of fog. After a minute or two you see another cliff face emerge from out of the fog. The gondola comes to rest and you quickly jump off.
 
-[end if]You stand at another great alcove, almost identical to the Gondola Station. The giant cable that the gondola car climbs along is fastened into the cliff wall above you, out of reach. To the west is the edge, dropping down into the fog where you hear the distant sound of waves crashing into the cliff. 
+[end if]You stand at another great alcove, almost identical to the Gondola Station. The giant cable that the gondola car climbs along is anchored into the cliff wall above you, out of reach. 
 
-In the easten wall of the alcove is a giant fissure jutting into the rock where crude, rocky stairs descend further into the fissure."
+In the easten wall of the alcove is a great fissure splitting the cliff wall where you see crude, rocky stairs descend further into the earth."
+
+The ambient noise of the Fissure is "a low and steady humming coming from the fissure".
 
 Instead of activating the lever when the player is in the Fissure and the gondola car is in the Fissure:
 	say "Nothing happens."
@@ -745,6 +751,8 @@ The lighthouse tower stands before you with the stereotypical red and white stri
 
 You can make out a pathway that leads southeast around the backside of the lighthouse." The printed name of Lighthouse Exterior Front is "Lighthouse Exterior - Front"
 
+The ambient noise of Lighthouse Exterior Front is "the sound of waves crashing against the rocks and the rythmic beating of the screen door."
+
 The Lighthouse Door is inside from the Lighthouse Exterior Front and outside from the Lighthouse Ground Floor. It is a door. The Lighthouse Door has a matching key the corroded brass key. The corroded brass key is in The End. The Lighthouse Door is closed. The Lighthouse Door is locked. It is not described. The description of the Lighthouse Door is "[if the player is in Lighthouse Exterior Front]The latch on the screen door is broken, causing it to slam back and forth in the strong winds. Behind is an old wooden door, painted aquamarine but chipped and worn from years of abuse.
 
 Taped to the front is a faded handwritten note.[else]The door is old but sturdy. You can hear the muffled banging of the screen door on the other side.[end if]"
@@ -756,7 +764,9 @@ Instead of taking the note:
 
 Section Lighthouse Exterior Back
 
-The Lighthouse Exterior Back is southeast of the Lighthouse Exterior Front. "You stand behind the lighthouse on the back side of the tiny island. Nothing much except patches of grass and a small well. A path leads back northwest to the front of the lighthouse. There is also a slope leading down to a dock to the southeast from here."
+The Lighthouse Exterior Back is southeast of the Lighthouse Exterior Front. "You stand behind the lighthouse on the back side of the tiny island. Nothing much except patches of grass and a small well. A path leads back northwest to the front of the lighthouse. There is also a slope leading down to a dock to the southeast from here." The printed name of the Lighthouse Exterior Back is "Lighthouse Exterior - Back".
+
+The ambient noise of Lighthouse Exterior Back is "the sound of waves crashing against the rocks and the distant rumblings from the storm on the horizon."
 
 The well is scenery in Lighthouse Exterior Back. It is not described. The description of the well is "A small circular well made out of irregular stones and mortar. The thing barely comes up to your knee. [if lowered]Looking down you see an old worn rope descend into darkness[else if raised]Looking down you see nothing but darkness[end if]. You find it hard to believe that there is fresh water down there. "
 
@@ -803,7 +813,7 @@ Instead of taking the metal bucket when the metal bucket is a part of the well:
 
 Section Lighthosue Ground Floor
 
-
+The printed name of Lighthouse Ground Floor is "Lighthouse - Ground Floor." The description of Lighthouse Ground Floor is "You're in a room."
 
 Section Lighthouse Basement
 
@@ -894,6 +904,8 @@ Dinoworld is a region.
 
 River Crossing, Lookout Point, Primordial Pools are in Dinoworld.
 
+The ambient noise of Dinoworld is "a distant back and forth of birdsong accented by the buzz of timing insect life."
+
 Section River Crossing
 
 The River Crossing is northeast of the Rotunda. "[if unvisited]You walk down the long passage which quickly becomes wider and wider, eventually becoming the natural walls of a cave. Before you know it, you are outside the cave and out in the middle of a vast jungle. You turn around and only see a tall cliff face - far too tall to climb.
@@ -933,6 +945,8 @@ The Starry Clearing is southwest of the Rotunda. "[if unvisited]You travel down 
 
 [end if]You stand in at the edge of a clearing in the forest. Underneath your feet is a cobblestone path overgrown by the forest. It leads across the clearing to a small hut. Despite the sun having set hours ago, the light from the stars above illuminates the entire clearing. That, and the light from the sliver of moon that seems to be positioned directly above the hut. A warm glow beckons you from a single window to come inside. A wispy trail of smoke can be seen coming out of a chimney on top of the hut."
 
+The ambient noise of the Starry Clearing is "the comforting chirping of crickets."
+
 The hut is backdrop in the Starry Clearing. "A small stone hut. The roof and door is made of wood, perhaps from the trees around you."
 
 The trees are a backdrop in the Starry Clearing. "Only the tops of the trees can be seen on the edge of the clearing. Everything else is too dark to make out."
@@ -944,6 +958,8 @@ The stars are a backdrop in the Starry Clearing. "The arm of some great galaxy r
 Section Shack
 
 The hut door is a door and scenery. It is inside from the Starry Clearing and outside from HutInterior.
+
+The ambient noise of the HutInterior is "the crackling firewoord in the fireplace."
 
 HutInterior is a room. The printed name of HutInterior is "Hut Interior". "You stand in the small hut. It is only one room filled with all the necessities of a forest lifestyle. In the center of the hut is a wooden pillar holding the roof up. In one corner sits a small bed made of straw. Against another wall is a lit fireplace which illuminates most of the room. There is a small wooden table pulled close to the fireplace."
 
@@ -983,7 +999,7 @@ Western City Center, Fountain City Center, Eastern City Center, Small Plaza, Nar
 
 Fountain City Center is in Underground City.
 
-Instead of listening while the player is in the underground city, say "You hear the low hum of the bussling city."
+The ambient noise of the underground city is "the low hum of the bussling city."
 
 Section City Center - West
 

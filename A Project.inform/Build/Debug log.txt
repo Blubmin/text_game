@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Inform7\Extens
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 11014 words long.
+I've now read your source text, which is 11147 words long.
 
 
 -----------------------------------------------------
@@ -71,15 +71,15 @@ Okay, I87'small door' to I61'rotunda'
 Okay, I87'small door' to I79'storage room'
 Okay, I95'ornate door' to I80'the end'
 Okay, I95'ornate door' to I61'rotunda'
-Okay, I116'lighthouse door' to I111'lighthouse ground floor'
-Okay, I116'lighthouse door' to I109'lighthouse exterior front'
-Okay, I137'plain white door' to I123'reception lobby'
-Okay, I139'janitor door' to I125'hallway'
-Okay, I139'janitor door' to I124'utility closet'
-Okay, I159'hut door' to I151'hutinterior'
-Okay, I159'hut door' to I150'starry clearing'
-Okay, I168'portal' to I80'the end'
-Okay, I168'portal' to I80'the end'
+Okay, I117'lighthouse door' to I112'lighthouse ground floor'
+Okay, I117'lighthouse door' to I110'lighthouse exterior front'
+Okay, I138'plain white door' to I124'reception lobby'
+Okay, I140'janitor door' to I126'hallway'
+Okay, I140'janitor door' to I125'utility closet'
+Okay, I160'hut door' to I152'hutinterior'
+Okay, I160'hut door' to I151'starry clearing'
+Okay, I169'portal' to I80'the end'
+Okay, I169'portal' to I80'the end'
 
 
 -----------------------------------------------------
