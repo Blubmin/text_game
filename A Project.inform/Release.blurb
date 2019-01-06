@@ -9,7 +9,7 @@ project folder "C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.in
 
 ! Blorb instructions
 
-storyfile leafname "Connor's Crazy Adventure Fun Ti.gblorb"
+storyfile leafname "Crossroads.gblorb"
 storyfile "C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Build\output.ulx" include
 ifiction "C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
@@ -20,7 +20,7 @@ picture 1 "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCo
 placeholder [IFID] = "22A5B95F-DA9D-4912-A4B6-6DC5C37522D4"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2019"
-placeholder [TITLE] = "Connor's Crazy Adventure Fun Time"
+placeholder [TITLE] = "Crossroads"
 placeholder [AUTHOR] = "Ian Meeder"
 placeholder [BLURB] = "A work of interactive fiction."
 

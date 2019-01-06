@@ -1,4 +1,4 @@
-"Connor's Crazy Adventure Fun Time" by Ian Meeder
+"Crossroads" by Ian Meeder
 
 Include Dynamic Tables by Jesse McGrew.
 Include Dynamic Objects by Jesse McGrew.
@@ -155,10 +155,25 @@ Section Text Object
 
 A text object is a kind of thing. A text object can be either read or unread. A text object is usually unread.
 
+After examining a text object:
+	now the noun is read.
+
 A magazine is a kind of text object.
 
 Instead of opening a magazine:
 	try examining the noun;
+
+Section Compass
+
+The compass is a thing. The description of the compass is "A red and gold magnetic compass. On the back is engraved the message: 'Spin the Needle To Return'."
+
+Understand "needle" as the compass.
+
+Instead of spinning the compass:
+	if the player does not carry the compass:
+		now the player carries the compass;
+	say "You spin the compass needle and the whole world seems to spin with it.";
+	now the player is in the Rotunda.
 
 Chapter Actions
 
@@ -324,6 +339,16 @@ Instead of listening:
 		say "You hear [region noise].";
 	else:
 		say "You hear [room noise].".
+
+Section Spinning
+
+Spinning is an action applying to one visible thing.
+
+Understand "spin [something]" as spinning.
+
+Check spinning:
+	unless the noun is the compass:
+		say "what.".
 
 Section Taking
 
@@ -512,6 +537,8 @@ The torch is scenery in the Rotunda. "Quite bright and bolted to the wall." Unde
 
 The vaulted ceiling is a backdrop in the rotunda. "The ceiling climbs far into the air above you, perhaps even defying the laws of physics."
 
+The compass is in the Rotunda.
+
 Section The Storage Room
 
 The small door is a door and scenery. "A small wooden door with a brass handle." It is west of the Rotunda and east of the Storage Room.
@@ -543,7 +570,8 @@ Instead of opening the crate:
 		say "The wooden crate is already open.";
 		
 Instead of closing the crate when the crate is open:
-	say "You place the lid lightly back on top of the crate."
+	say "You place the lid lightly back on top of the crate.";
+	now the crate is closed.
 
 Instead of unlocking the crate with something (called the key):
 	if the key unlocks the crate:
@@ -707,10 +735,15 @@ Instead of doing something when the player does not carry something lit and the 
 Instead of going northwest when the player does not carry something lit and the player is in Dark Cavern:
 	now the player is in the Temple Gate.
 
-
 Section Temple Gate
 
-The Temple Gate is northwest of the Dark Cavern. "There is no description. Go back southeast."
+The Temple Gate is northwest of the Dark Cavern. "[if unvisited]You continue through the caverns, climbing upwards until you begin to see daylight.
+
+[end if]You emerge and find yourself on the top of a narrow mountain peak, with steep jagged slopes leading down to a sea of clouds. In the distance you can see similar moss and juniper-topped peaks peeking out of the endless layer of clouds. 
+
+To your west lies a large temple gate, painted a dried-blood red and decorated with ornate golden inlays. 
+
+To the southeast is the cave opening leading back to the caverns."
 
 Chapter Lighthouse
 
@@ -761,14 +794,10 @@ Instead of unlocking the lighthouse door with the corroded brass key:
 	say "You turn the key in the lock and it snaps in your hand. [if the note is read]Sorry Sam. [end if]But hey, at least the door's unlocked now.";
 	now the Lighthouse Door is unlocked.
 
-The lighthouse keeper's note is a part of the Lighthouse Door. The description of the note is "In a messy script you can make out: 'Dropped key in well. Again. Out to get locksmith. Back when I'm back. - Sam'".
+The lighthouse keeper's note is text object. It is part of the Lighthouse Door. The description of the note is "In a messy script you can make out: 'Dropped key in well. Again. Out to get locksmith. Back when I'm back. - Sam'".
 
 Instead of taking the note:
-	say "If you take the note, then no one else will know what Sam is up to."
-The note can be read or unread. The note is unread.
-
-After examining the note:
-	now the note is read.
+	say "If you take the note no one else will know what Sam is up to."
 
 Section Lighthouse Exterior Back
 
@@ -895,6 +924,9 @@ In the metal bucket is an old mop. The description of the mop is "An old mop, di
 
 After taking the metal bucket:
 	say "Man, you have large pockets."
+	
+Instead of filling the metal bucket with a liquid (called the liquid):
+	say "Carrying a whole bucket full of [liquid] would be way too annoying to carry around.".
 
 The ambient noise of the Utility Closet is "the low hum of those terrible fluorescents above you".
 

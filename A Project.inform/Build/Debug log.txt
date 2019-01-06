@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Inform7\Extens
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 11248 words long.
+I've now read your source text, which is 11459 words long.
 
 
 -----------------------------------------------------
@@ -67,19 +67,19 @@ Phase VIII ... Second pass through assertions
 Phase IX ... Making the model world
 -----------------------------------------------------
 
-Okay, I87'small door' to I61'rotunda'
-Okay, I87'small door' to I79'storage room'
-Okay, I95'ornate door' to I80'the end'
-Okay, I95'ornate door' to I61'rotunda'
-Okay, I117'lighthouse door' to I112'lighthouse ground floor'
-Okay, I117'lighthouse door' to I110'lighthouse exterior front'
-Okay, I138'plain white door' to I124'reception lobby'
-Okay, I140'janitor door' to I126'hallway'
-Okay, I140'janitor door' to I125'utility closet'
-Okay, I160'hut door' to I152'hutinterior'
-Okay, I160'hut door' to I151'starry clearing'
-Okay, I169'portal' to I80'the end'
-Okay, I169'portal' to I80'the end'
+Okay, I88'small door' to I61'rotunda'
+Okay, I88'small door' to I80'storage room'
+Okay, I96'ornate door' to I81'the end'
+Okay, I96'ornate door' to I61'rotunda'
+Okay, I118'lighthouse door' to I113'lighthouse ground floor'
+Okay, I118'lighthouse door' to I111'lighthouse exterior front'
+Okay, I139'plain white door' to I125'reception lobby'
+Okay, I141'janitor door' to I127'hallway'
+Okay, I141'janitor door' to I126'utility closet'
+Okay, I161'hut door' to I153'hutinterior'
+Okay, I161'hut door' to I152'starry clearing'
+Okay, I170'portal' to I81'the end'
+Okay, I170'portal' to I81'the end'
 
 
 -----------------------------------------------------
@@ -189,8 +189,8 @@ Providing for a total heap of 8192, given requirement of 8192
 Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
-Total of 114 files written as streams.
-CPU time: 128 centiseconds
+Total of 115 files written as streams.
+CPU time: 129 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
