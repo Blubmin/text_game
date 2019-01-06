@@ -1,7 +1,13 @@
 "Crossroads" by Ian Meeder
 
+Include Basic Help Menu by Emily Short.
+Include Glulx Text Effects by Emily Short.
+Include Locksmith by Emily Short.
 Include Dynamic Tables by Jesse McGrew.
 Include Dynamic Objects by Jesse McGrew.
+
+Release along with a website and an interpreter.
+
 The player is in the Rotunda.
 
 Part Game Rules
@@ -170,9 +176,9 @@ The compass is a thing. The description of the compass is "A red and gold magnet
 Understand "needle" as the compass.
 
 Instead of spinning the compass:
-	if the player does not carry the compass:
+	if the player does not carry the compass: 
 		now the player carries the compass;
-	say "You spin the compass needle and the whole world seems to spin with it.";
+	say "You spin the compass needle and the whole world seems to spin with it. Looking up, you find yourself in a familiar location.";
 	now the player is in the Rotunda.
 
 Chapter Actions
@@ -249,6 +255,16 @@ Carry out filling something (called the container) with something (called the li
 Report filling something (called the container) with something (called the liquid):
 	say "[The container] is now filled to the brim with [the liquid].";
 	now the container is not empty.
+
+Section Moving
+
+Moving is an action applying to one visible thing.
+
+Understand "move [something]" as moving.
+
+Carry out moving something:
+	unless the noun is the sub:
+		try pushing the noun.
 
 Section Pouring Out
 
@@ -348,7 +364,7 @@ Understand "spin [something]" as spinning.
 
 Check spinning:
 	unless the noun is the compass:
-		say "what.".
+		try turning the noun.
 
 Section Taking
 
@@ -408,6 +424,26 @@ Chapter Rulebooks
 Section Going a Direction
 
 The can't go through undescribed doors rule is not listed in any rulebook.
+
+Chapter Style
+
+Section Colors
+
+Table of Common Color Values (continued)
+glulx color value	assigned number 
+g-pure-blue	255 
+g-pure-green	65280 
+g-pure-cyan	65535 
+g-pure-yellow	16776960 
+g-pure-magenta	16711935 
+g-pure-red	16711680 
+g-dark-red	11141120 
+
+Section Font Styles
+
+Table of User Styles (continued)
+style name	justification	obliquity	indentation	first-line indentation	boldness	fixed width	relative size	glulx color
+special-style-1	left-justified	no-obliquity	0	0	bold-weight	fixed-width-font	0	g-pure-red	
 
 Part The Game
 
@@ -745,11 +781,13 @@ To your west lies a large temple gate, painted a dried-blood red and decorated w
 
 To the southeast is the cave opening leading back to the caverns."
 
+The ambient noise of the Temple Gate is "nothing but the soft whisper of the wind."
+
 Chapter Lighthouse
 
 The Lighthouse Area is a region.
 
-The Windy Path, Lighthouse Exterior Front, Lighthouse Exterior Back, Lighthouse Ground Floor, Lighthouse Basement are in the Lighthouse Area.
+The Windy Path, Lighthouse Exterior Front, Lighthouse Exterior Back, Lighthouse Ground Floor, Lighthouse Basement, Research Station are in the Lighthouse Area.
 
 The storm clouds are a backdrop. "Dark clouds that stretch and cover the entire sky." They are in Windy Path, Lighthouse Exterior Front, and Lighthouse Exterior Back. Understand "sky" as the storm clouds.
 
@@ -790,9 +828,9 @@ The Lighthouse Door is inside from the Lighthouse Exterior Front and outside fro
 
 Taped to the front is a faded handwritten note.[else]The door is old but sturdy. You can hear the muffled banging of the screen door on the other side.[end if]"
 
-Instead of unlocking the lighthouse door with the corroded brass key:
+After unlocking the lighthouse door with the corroded brass key:
 	say "You turn the key in the lock and it snaps in your hand. [if the note is read]Sorry Sam. [end if]But hey, at least the door's unlocked now.";
-	now the Lighthouse Door is unlocked.
+	remove the corroded brass key from play.
 
 The lighthouse keeper's note is text object. It is part of the Lighthouse Door. The description of the note is "In a messy script you can make out: 'Dropped key in well. Again. Out to get locksmith. Back when I'm back. - Sam'".
 
@@ -855,6 +893,116 @@ The printed name of Lighthouse Ground Floor is "Lighthouse - Ground Floor." The 
 Section Lighthouse Basement
 
 Lighthouse Basement is down from Lighthouse Ground Floor.
+
+Section Research Station
+
+The description of the Research Station is "Room."
+
+The terminal is in the Research Station.
+
+Table 1
+col1 	col2 	col3 	col4
+0 	0 	0 	0
+0 	0 	0	0
+0 	1 	0 	0
+1 	0 	1 	0
+
+Table Map
+col
+"###################"
+"###################"
+"###################"
+"#### ##    ########"
+"#### #     #   ####"
+"###          #  ###"
+"###    #   #### ###"
+"####   #    # # ###"
+"###   ####  # # ###"
+"###   ###  ## # ###"
+"####   #   ##   ###"
+"####      ### #####"
+"###  #    #G# #####"
+"###R####  #    ####"
+"###################"
+"###################"
+"###################"
+
+The sub is a part of the terminal. The sub has some number called row. The sub has some number called col. The row of the sub is 5. The col of the sub is 5. The sub has a number called radar. The radar of the sub is 2.
+
+A shark is a kind of thing. A shark has some number called x mov. A shark has some number called y mov. A shark has some number called row. A shark has some number called col. A shark has some text called symbol.
+
+Small shark is a shark. The x mov of the small shark is 1. The y mov of the small shark is 0. The row of the small shark is 7. The col of the small shark is 4. The symbol of the small shark is ">".
+
+Medium shark is a shark. The x mov of the Medium shark is 1. The y mov of the Medium shark is 0. The row of the Medium shark is 7. The col of the Medium shark is 4. The symbol of the Medium shark is ">".
+
+Large shark is a shark. The x mov of the Large shark is 1. The y mov of the Large shark is 0. The row of the Large shark is 7. The col of the Large shark is 4. The symbol of the Large shark is "V".
+
+Instead of examining the terminal:
+	let min row be the row of the sub - the radar of the sub;
+	let max row be the row of the sub + the radar of the sub;
+	let min col be the col of the sub - the radar of the sub;
+	let max col be the col of the sub + the radar of the sub;
+	repeat with N running from the min row to the max row:
+		let row be col in row N of table map;
+		if N is the min row:
+			repeat with M running from min col to max col:
+				if M is the min col:
+					say "[fixed letter spacing]  ┌───";
+				else:
+					say "[fixed letter spacing]┬───";
+			say "[fixed letter spacing]┐[line break]";
+		else:
+			repeat with M running from min col to max col:
+				if M is the min col:
+					say "[fixed letter spacing]  ├───";
+				else:
+					say "[fixed letter spacing]┼───";
+			say "[fixed letter spacing]┤[line break]";
+		repeat with M running from min col to max col:
+			if M is the min col:
+				say "[fixed letter spacing]  │ ";
+			let space be character number M in row;
+			repeat with shark running through all sharks:
+				if the row of the shark is N and the col of the shark is M:
+					say "[first custom style][symbol of the shark][fixed letter spacing] │ ";
+			if the row of the sub is N and the col of the sub is M:
+				say "[fixed letter spacing]O │ ";
+			else if space is "X":
+				say "[first custom style][space][fixed letter spacing] │ ";
+			else:
+				say "[space] │ ";
+		say "[line break]";
+		if N is the max row:
+			repeat with M running from min col to max col:
+				if M is the min col:
+					say "[fixed letter spacing]  └───";
+				else:
+					say "[fixed letter spacing]┴───";
+			say "[fixed letter spacing]┘[line break]";
+
+Left is a direction. Right is a direction. Understand "left" as left. Understand "right" as right.
+
+Instead of pushing the sub to direction (called the direction):
+	let R be row of sub;
+	let C be col of sub;
+	if direction is up:
+		now R is R - 1;
+	else if direction is down:
+		now R is R + 1;
+	else if direction is left:
+		now C is C - 1;
+	else if direction is right:
+		now C is C + 1;
+	if character number C in col in row R of table map is "R":
+		say "You found the radar upgrade!";
+		now the radar of the sub is the radar of the sub + 1;
+		replace character number C in col in row R of table map with " ";
+	if character number C in col in row R of table map is " ":
+		now the row of the sub is R;
+		now the col of the sub is C;
+	else:
+		say "Could not move the sub [direction]. Obstacle in the way.";
+	try examining the terminal.
 
 Chapter OfficeSpace
 

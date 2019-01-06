@@ -271,7 +271,7 @@
         }
     }
     function showAllResp() {
-        for (var i=0;i<439;i++) {
+        for (var i=0;i<488;i++) {
             showResp('extra'+(1000000+i), 'plus'+(1000000+i));
         }
     }
@@ -648,266 +648,300 @@ A single action in detail.<br><i>About the action rulebooks&nbsp;&nbsp;<a href=i
 <p>By this action, an actor puts
 something he is holding on top of a supporter: for instance, putting an apple
 on a table.<p><hr><p><b>Typed commands leading to this action</b><p>
-<p class="hangingin2">&quot;put [other things] on/onto [something]&quot;</p><p class="hangingin2">&quot;drop/throw/discard [other things] on/onto [something]&quot;</p><p><b>Rules controlling this action</b></p><p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>putting the handle on the joint</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line618"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cave</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line715"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cavern</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line732"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
-<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line498"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">&quot;put [other things] on/onto [something]&quot;</p><p class="hangingin2">&quot;drop/throw/discard [other things] on/onto [something]&quot;</p><p class="hangingin2">&quot;put [passkey] on [keychain]&quot;&nbsp;<a href='inform://Extensions/Extensions/Emily%20Short/Locksmith.html' title="Locksmith by Emily Short" STYLE="text-decoration: none"><img border=0 src=inform:/doc_images/Revealext.png></a></p><p><b>Rules controlling this action</b></p><p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>putting the handle on the joint</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line654"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>putting something which is not a passkey on a keychain</i>&nbsp;&nbsp;<font color="#800000">limiting keychains rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode2774(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('limiting keychains rule');
+}
+</script>
+<a href="javascript:pasteCode2774()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2775(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The limiting keychains rule is not listed in the instead rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode2775()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000306', 'plus1000306'); return false;"><img border=0 id="plus1000306" src=inform:/doc_images/responses.png></a>&nbsp;1&nbsp;<a href='inform://Extensions/Extensions/Emily%20Short/Locksmith.html' title="Locksmith by Emily Short" STYLE="text-decoration: none"><img border=0 src=inform:/doc_images/Revealext.png></a></p>
+<div id="extra1000306" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[The noun] [are] not a key."</span>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode2776(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('limiting keychains rule response (A)');
+}
+</script>
+<a href="javascript:pasteCode2776()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode2777(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('limiting keychains rule response (A) is [=0x0022=]New text.[=0x0022=].');
+}
+</script>
+<a href="javascript:pasteCode2777()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cave</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line751"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something when the player does not carry something lit and the player is in Dark Cavern</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line768"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+<p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>doing something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line534"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
 <br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor putting something on</i>&nbsp;&nbsp;<font color="#800000">convert put to drop where possible rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2507(code) {
+function pasteCode2778(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('convert put to drop where possible rule');
 }
 </script>
-<a href="javascript:pasteCode2507()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode2508(code) {
+<a href="javascript:pasteCode2778()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2779(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The convert put to drop where possible rule is not listed in the check putting it on rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode2508()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode2779()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor putting something on</i>&nbsp;&nbsp;<font color="#800000">can't put what's not held rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2509(code) {
+function pasteCode2780(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put what[=0x0027=]s not held rule');
 }
 </script>
-<a href="javascript:pasteCode2509()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode2510(code) {
+<a href="javascript:pasteCode2780()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2781(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t put what[=0x0027=]s not held rule is not listed in the check putting it on rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode2510()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode2781()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor putting something on</i>&nbsp;&nbsp;<font color="#800000">can't put something on itself rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2511(code) {
+function pasteCode2782(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put something on itself rule');
 }
 </script>
-<a href="javascript:pasteCode2511()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode2512(code) {
+<a href="javascript:pasteCode2782()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2783(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t put something on itself rule is not listed in the check putting it on rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode2512()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000085', 'plus1000085'); return false;"><img border=0 id="plus1000085" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode2783()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000085', 'plus1000085'); return false;"><img border=0 id="plus1000085" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000085" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[We] [can't put] something on top of itself."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2513(code) {
+function pasteCode2784(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put something on itself rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode2513()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode2514(code) {
+<a href="javascript:pasteCode2784()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode2785(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put something on itself rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode2514()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode2785()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor putting something on</i>&nbsp;&nbsp;<font color="#800000">can't put onto what's not a supporter rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2515(code) {
+function pasteCode2786(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put onto what[=0x0027=]s not a supporter rule');
 }
 </script>
-<a href="javascript:pasteCode2515()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode2516(code) {
+<a href="javascript:pasteCode2786()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2787(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t put onto what[=0x0027=]s not a supporter rule is not listed in the check putting it on rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode2516()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000086', 'plus1000086'); return false;"><img border=0 id="plus1000086" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode2787()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000086', 'plus1000086'); return false;"><img border=0 id="plus1000086" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000086" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"Putting things on [the second noun] [would achieve] nothing."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2517(code) {
+function pasteCode2788(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put onto what[=0x0027=]s not a supporter rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode2517()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode2518(code) {
+<a href="javascript:pasteCode2788()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode2789(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put onto what[=0x0027=]s not a supporter rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode2518()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode2789()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor putting something on</i>&nbsp;&nbsp;<font color="#800000">can't put clothes being worn rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2519(code) {
+function pasteCode2790(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put clothes being worn rule');
 }
 </script>
-<a href="javascript:pasteCode2519()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode2520(code) {
+<a href="javascript:pasteCode2790()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2791(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t put clothes being worn rule is not listed in the check putting it on rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode2520()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000087', 'plus1000087'); return false;"><img border=0 id="plus1000087" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode2791()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000087', 'plus1000087'); return false;"><img border=0 id="plus1000087" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000087" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"(first taking [regarding the noun][them] off)[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2521(code) {
+function pasteCode2792(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put clothes being worn rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode2521()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode2522(code) {
+<a href="javascript:pasteCode2792()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode2793(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put clothes being worn rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode2522()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode2793()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor putting something on</i>&nbsp;&nbsp;<font color="#800000">can't put if this exceeds carrying capacity rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2523(code) {
+function pasteCode2794(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put if this exceeds carrying capacity rule');
 }
 </script>
-<a href="javascript:pasteCode2523()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode2524(code) {
+<a href="javascript:pasteCode2794()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2795(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The can[=0x0027=]t put if this exceeds carrying capacity rule is not listed in the check putting it on rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode2524()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000088', 'plus1000088'); return false;"><img border=0 id="plus1000088" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode2795()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000088', 'plus1000088'); return false;"><img border=0 id="plus1000088" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000088" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[There] [are] no more room on [the second noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2525(code) {
+function pasteCode2796(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put if this exceeds carrying capacity rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode2525()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode2526(code) {
+<a href="javascript:pasteCode2796()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode2797(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('can[=0x0027=]t put if this exceeds carrying capacity rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode2526()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode2797()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor putting something on</i>&nbsp;&nbsp;<font color="#800000">standard putting rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2527(code) {
+function pasteCode2798(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('standard putting rule');
 }
 </script>
-<a href="javascript:pasteCode2527()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode2528(code) {
+<a href="javascript:pasteCode2798()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2799(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The standard putting rule is not listed in the carry out putting it on rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode2528()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<a href="javascript:pasteCode2799()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor putting something on</i>&nbsp;&nbsp;<font color="#800000">concise report putting rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2529(code) {
+function pasteCode2800(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('concise report putting rule');
 }
 </script>
-<a href="javascript:pasteCode2529()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode2530(code) {
+<a href="javascript:pasteCode2800()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2801(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The concise report putting rule is not listed in the report putting it on rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode2530()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000090', 'plus1000090'); return false;"><img border=0 id="plus1000090" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode2801()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000090', 'plus1000090'); return false;"><img border=0 id="plus1000090" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000090" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"Done."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2531(code) {
+function pasteCode2802(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('concise report putting rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode2531()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode2532(code) {
+<a href="javascript:pasteCode2802()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode2803(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('concise report putting rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode2532()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<a href="javascript:pasteCode2803()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
 <p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor putting something on</i>&nbsp;&nbsp;<font color="#800000">standard report putting rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2533(code) {
+function pasteCode2804(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('standard report putting rule');
 }
 </script>
-<a href="javascript:pasteCode2533()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode2534(code) {
+<a href="javascript:pasteCode2804()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode2805(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('The standard report putting rule is not listed in the report putting it on rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode2534()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000091', 'plus1000091'); return false;"><img border=0 id="plus1000091" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+<a href="javascript:pasteCode2805()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000091', 'plus1000091'); return false;"><img border=0 id="plus1000091" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
 <div id="extra1000091" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[The actor] [put] [the noun] on [the second noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode2535(code) {
+function pasteCode2806(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('standard report putting rule response (A)');
 }
 </script>
-<a href="javascript:pasteCode2535()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-function pasteCode2536(code) {
+<a href="javascript:pasteCode2806()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+function pasteCode2807(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
     myProject.pasteCode('standard report putting rule response (A) is [=0x0022=]New text.[=0x0022=].');
 }
 </script>
-<a href="javascript:pasteCode2536()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
-<br>Click on the speech-bubble icons to see the responses, or here to see all of them:&nbsp;<a href="#" onclick="showAllResp(); return false;"><img border=0 src=inform:/doc_images/responses.png></a>&nbsp;6</p>
+<a href="javascript:pasteCode2807()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+<br>Click on the speech-bubble icons to see the responses, or here to see all of them:&nbsp;<a href="#" onclick="showAllResp(); return false;"><img border=0 src=inform:/doc_images/responses.png></a>&nbsp;7</p>
 <!--CONTENT ENDS-->
 </font></body></html>

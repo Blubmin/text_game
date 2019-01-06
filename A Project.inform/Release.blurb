@@ -14,6 +14,8 @@ storyfile "C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\
 ifiction "C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
+release file "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Cover.jpg"
+release file "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Small Cover.jpg"
 
 ! Placeholder variables
 
@@ -26,9 +28,26 @@ placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
 
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Crossroads.gblorb.js"
+template path "C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.materials\Templates"
+template path "C:\Users\imeed\OneDrive\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Build\output.ulx" to "C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.materials\Release\interpreter\Crossroads.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.materials\Templates"
+template path "C:\Users\imeed\OneDrive\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line9"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
