@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Inform7\Extens
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 12432 words long.
+I've now read your source text, which is 12697 words long.
 
 
 -----------------------------------------------------
@@ -78,13 +78,13 @@ Okay, I132'ornate door' to I117'the end'
 Okay, I132'ornate door' to I97'rotunda'
 Okay, I155'lighthouse door' to I149'lighthouse ground floor'
 Okay, I155'lighthouse door' to I147'lighthouse exterior front'
-Okay, I183'plain white door' to I169'reception lobby'
-Okay, I185'janitor door' to I171'hallway'
-Okay, I185'janitor door' to I170'utility closet'
-Okay, I205'hut door' to I197'hutinterior'
-Okay, I205'hut door' to I196'starry clearing'
-Okay, I214'portal' to I117'the end'
-Okay, I214'portal' to I117'the end'
+Okay, I184'plain white door' to I170'reception lobby'
+Okay, I186'janitor door' to I172'hallway'
+Okay, I186'janitor door' to I171'utility closet'
+Okay, I206'hut door' to I198'hutinterior'
+Okay, I206'hut door' to I197'starry clearing'
+Okay, I215'portal' to I117'the end'
+Okay, I215'portal' to I117'the end'
 
 
 -----------------------------------------------------
@@ -195,7 +195,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 135 files written as streams.
-CPU time: 151 centiseconds
+CPU time: 150 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

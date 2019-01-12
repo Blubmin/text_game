@@ -898,7 +898,7 @@ Section Research Station
 
 The description of the Research Station is "Room."
 
-The terminal is in the Research Station.
+The terminal is in the Research Station. The terminal can be activated or unactivated. The terminal is unactivated.
 
 Table 1
 col1 	col2 	col3 	col4
@@ -933,10 +933,32 @@ A shark is a kind of thing. A shark has some number called x mov. A shark has so
 
 Small shark is a shark. The x mov of the small shark is 1. The y mov of the small shark is 0. The row of the small shark is 7. The col of the small shark is 4. The symbol of the small shark is ">".
 
-Medium shark is a shark. The x mov of the Medium shark is 1. The y mov of the Medium shark is 0. The row of the Medium shark is 7. The col of the Medium shark is 4. The symbol of the Medium shark is ">".
+Medium shark is a shark. The x mov of the Medium shark is 1. The y mov of the Medium shark is 0. The row of the Medium shark is 12. The col of the Medium shark is 7. The symbol of the Medium shark is ">".
 
-Large shark is a shark. The x mov of the Large shark is 1. The y mov of the Large shark is 0. The row of the Large shark is 7. The col of the Large shark is 4. The symbol of the Large shark is "V".
+Large shark is a shark. The x mov of the Large shark is 0. The y mov of the Large shark is 1. The row of the Large shark is 12. The col of the Large shark is 14. The symbol of the Large shark is "V".
 
+Every turn:
+	repeat with shark running through all sharks:
+		let R be the row of the shark + the y mov of the shark;
+		let C be the col of the shark + the x mov of the shark;
+		let row be col in row R of table map;
+		let space be character number C in row;
+		if space is " ":
+			now the row of shark is R;
+			now the col of shark is C;
+		else:
+			now the x mov of the shark is 0 - x mov of the shark;
+			now the y mov of the shark is 0 - y mov of the shark;
+			if the symbol of the shark is ">":
+				now the symbol of the shark is "<";
+			else if the symbol of the shark is "<":
+				now the symbol of the shark is ">";
+			else if the symbol of the shark is "V":
+				now the symbol of the shark is "Λ";
+			else:
+				now the symbol of the shark is "V";
+			
+		
 Instead of examining the terminal:
 	let min row be the row of the sub - the radar of the sub;
 	let max row be the row of the sub + the radar of the sub;
@@ -962,15 +984,18 @@ Instead of examining the terminal:
 			if M is the min col:
 				say "[fixed letter spacing]  │ ";
 			let space be character number M in row;
+			let shark_found be false;
 			repeat with shark running through all sharks:
 				if the row of the shark is N and the col of the shark is M:
 					say "[first custom style][symbol of the shark][fixed letter spacing] │ ";
-			if the row of the sub is N and the col of the sub is M:
-				say "[fixed letter spacing]O │ ";
-			else if space is "X":
-				say "[first custom style][space][fixed letter spacing] │ ";
-			else:
-				say "[space] │ ";
+					now shark_found is true;
+			if shark_found is false:
+				if the row of the sub is N and the col of the sub is M:
+					say "[fixed letter spacing]O │ ";
+				else if space is "X":
+					say "[first custom style][space][fixed letter spacing] │ ";
+				else:
+					say "[space] │ ";
 		say "[line break]";
 		if N is the max row:
 			repeat with M running from min col to max col:
@@ -982,7 +1007,7 @@ Instead of examining the terminal:
 
 Left is a direction. Right is a direction. Understand "left" as left. Understand "right" as right.
 
-Instead of pushing the sub to direction (called the direction):
+Instead of going a direction (called the direction) during Subnautical Adventure:
 	let R be row of sub;
 	let C be col of sub;
 	if direction is up:
@@ -993,6 +1018,10 @@ Instead of pushing the sub to direction (called the direction):
 		now C is C - 1;
 	else if direction is right:
 		now C is C + 1;
+	else:
+		say "[direction] is not a valid direction. Valid directions are:[line break]";
+		say "up[line break]left[line break]right[line break]down";
+		stop;
 	if character number C in col in row R of table map is "R":
 		say "You found the radar upgrade!";
 		now the radar of the sub is the radar of the sub + 1;
@@ -1002,7 +1031,19 @@ Instead of pushing the sub to direction (called the direction):
 		now the col of the sub is C;
 	else:
 		say "Could not move the sub [direction]. Obstacle in the way.";
+	if Subnautical Adventure is not happening:
+		try examining the terminal.
+
+Subnautical Adventure is a recurring scene. Subnautical Adventure begins when the terminal is activated. Subnautical Adventure ends when the terminal is unactivated.
+
+Instead of using the terminal:
+	now the terminal is activated.
+
+Every turn during Subnautical Adventure:
 	try examining the terminal.
+
+Instead of exiting during Subnautical Adventure:
+	now the terminal is unactivated.
 
 Chapter OfficeSpace
 
