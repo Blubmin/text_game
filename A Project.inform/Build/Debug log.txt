@@ -1,5 +1,5 @@
 Debugging log of Inform 7
-Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -rules C:\Program Files (x86)\Inform 7\Inform7\Extensions -package C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform -extension=ulx 
+Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -release -rules C:\Program Files (x86)\Inform 7\Inform7\Extensions -package C:\Users\Ian\Projects\crossroads\A Project.inform -extension=ulx 
 Found language bundle 'English' (built in)
 Found language bundle 'French' (built in)
 Found language bundle 'German' (built in)
@@ -194,8 +194,8 @@ Providing for a total heap of 8192, given requirement of 8192
 Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
-Total of 135 files written as streams.
-CPU time: 150 centiseconds
+Total of 134 files written as streams.
+CPU time: 2341 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

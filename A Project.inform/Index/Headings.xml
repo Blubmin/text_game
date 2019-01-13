@@ -3,637 +3,637 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6L02</string>
     <key>0</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>"Crossroads" by Ian Meeder</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>13</integer>
         <key>Title</key><string>Part Game Rules</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>15</integer>
         <key>Title</key><string>Chapter Values</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>17</integer>
         <key>Title</key><string>Section Price</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>21</integer>
         <key>Title</key><string>Section Weight</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>5</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>25</integer>
         <key>Title</key><string>Chapter Objects</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>6</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>27</integer>
         <key>Title</key><string>Section Bottle</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>7</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>43</integer>
         <key>Title</key><string>Section Clothing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>8</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>71</integer>
         <key>Title</key><string>Section Currency</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>9</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>99</integer>
         <key>Title</key><string>Section Electric Light</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>10</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>119</integer>
         <key>Title</key><string>Section Lever</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>11</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>140</integer>
         <key>Title</key><string>Section Liquid</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>12</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>150</integer>
         <key>Title</key><string>Section Person</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>13</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>154</integer>
         <key>Title</key><string>Section Ambient Noise</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>14</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>160</integer>
         <key>Title</key><string>Section Text Object</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>15</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>172</integer>
         <key>Title</key><string>Section Compass</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>16</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>184</integer>
         <key>Title</key><string>Chapter Actions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>17</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>186</integer>
         <key>Title</key><string>Section Activating</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>18</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>194</integer>
         <key>Title</key><string>Section Attacking</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>19</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>199</integer>
         <key>Title</key><string>Section Drinking</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>20</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>227</integer>
         <key>Title</key><string>Section Fill</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>21</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>259</integer>
         <key>Title</key><string>Section Moving</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>22</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>269</integer>
         <key>Title</key><string>Section Pouring Out</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>23</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>297</integer>
         <key>Title</key><string>Section Looking Behind</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>24</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>308</integer>
         <key>Title</key><string>Section Buying</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>25</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>339</integer>
         <key>Title</key><string>Section Inserting</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>26</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>347</integer>
         <key>Title</key><string>Section Listening</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>27</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>359</integer>
         <key>Title</key><string>Section Spinning</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>28</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>369</integer>
         <key>Title</key><string>Section Taking</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>29</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>379</integer>
         <key>Title</key><string>Section Talking</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>30</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>392</integer>
         <key>Title</key><string>Section Using</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>31</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>402</integer>
         <key>Title</key><string>Chapter Relations</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>32</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>404</integer>
         <key>Title</key><string>Section Behind</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>33</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>410</integer>
         <key>Title</key><string>Section Filled</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>34</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>416</integer>
         <key>Title</key><string>Section Owning</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>35</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>422</integer>
         <key>Title</key><string>Chapter Rulebooks</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>36</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>424</integer>
         <key>Title</key><string>Section Going a Direction</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>37</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>428</integer>
         <key>Title</key><string>Chapter Style</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>38</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>430</integer>
         <key>Title</key><string>Section Colors</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>39</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>442</integer>
         <key>Title</key><string>Section Font Styles</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>40</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>448</integer>
         <key>Title</key><string>Part The Game</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>41</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>450</integer>
         <key>Title</key><string>Chapter Prelude</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>42</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>458</integer>
         <key>Title</key><string>Section Your Bedroom</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>43</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>541</integer>
         <key>Title</key><string>Chapter The Rotunda</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>44</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>547</integer>
         <key>Title</key><string>Section The Email</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>45</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>562</integer>
         <key>Title</key><string>Section The Rotunda</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>46</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>578</integer>
         <key>Title</key><string>Section The Storage Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>47</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>626</integer>
         <key>Title</key><string>Section The End</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>48</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>634</integer>
         <key>Title</key><string>Section Gondola Station</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>49</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>693</integer>
         <key>Title</key><string>Section Fissure</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>50</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>719</integer>
         <key>Title</key><string>Chapter Ninja Temple</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>51</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>725</integer>
         <key>Title</key><string>Section Alcove</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>52</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>735</integer>
         <key>Title</key><string>Section Dark Cave</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>53</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>760</integer>
         <key>Title</key><string>Section Dark Cavern</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>54</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>774</integer>
         <key>Title</key><string>Section Temple Gate</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>55</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>786</integer>
         <key>Title</key><string>Chapter Lighthouse</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>56</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>798</integer>
         <key>Title</key><string>Section Windy Path</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>57</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>813</integer>
         <key>Title</key><string>Section Lighthouse Exterior Front</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>58</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>840</integer>
         <key>Title</key><string>Section Lighthouse Exterior Back</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>59</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>889</integer>
         <key>Title</key><string>Section Lighthosue Ground Floor</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>60</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>893</integer>
         <key>Title</key><string>Section Lighthouse Basement</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>61</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>897</integer>
         <key>Title</key><string>Section Research Station</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>62</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1048</integer>
         <key>Title</key><string>Chapter OfficeSpace</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>63</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1056</integer>
         <key>Title</key><string>Section Reception Lobby</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>64</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1092</integer>
         <key>Title</key><string>Section Hallway</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>65</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1101</integer>
         <key>Title</key><string>Section Utility Closet</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>66</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1122</integer>
         <key>Title</key><string>Section Break Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>67</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1126</integer>
         <key>Title</key><string>Section Printer Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>68</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1130</integer>
         <key>Title</key><string>Chapter Dinoworld</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>69</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1138</integer>
         <key>Title</key><string>Section River Crossing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>70</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1146</integer>
         <key>Title</key><string>Section Lookout Point</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>71</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1162</integer>
         <key>Title</key><string>Section Primordial Pools</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>72</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1166</integer>
         <key>Title</key><string>Chapter Wizards Workshop</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>73</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1172</integer>
         <key>Title</key><string>Section Starry Clearing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>74</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1188</integer>
         <key>Title</key><string>Section Shack</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>75</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1212</integer>
         <key>Title</key><string>Section Great Library</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>76</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1216</integer>
         <key>Title</key><string>Section Potion Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>77</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1220</integer>
         <key>Title</key><string>Section Wizzard's Bedrrom</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>78</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1224</integer>
         <key>Title</key><string>Chapter The City</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>79</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1234</integer>
         <key>Title</key><string>Section City Center - West</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>80</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1242</integer>
         <key>Title</key><string>Section City Center - Fountain</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>81</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1256</integer>
         <key>Title</key><string>Section City Center - East</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>82</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1262</integer>
         <key>Title</key><string>Section Small Plaza</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>83</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1268</integer>
         <key>Title</key><string>Section Narrow Street</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>84</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1274</integer>
         <key>Title</key><string>Section Rundown Shops</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>85</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1298</integer>
         <key>Title</key><string>Section Back Alley</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>86</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1304</integer>
         <key>Title</key><string>Section Tavern</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>87</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1328</integer>
         <key>Title</key><string>Section Abandoned Building</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>88</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1332</integer>
         <key>Title</key><string>Section Basement</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>89</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1336</integer>
         <key>Title</key><string>Section Sectret Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>90</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\Documents\Inform\Projects\crossroads\A Project.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\Users\Ian\Projects\crossroads\A Project.inform\Source\story.ni</string>
         <key>Line</key><integer>1340</integer>
         <key>Title</key><string>Part Testing</string>
         <key>Level</key><integer>3</integer>
@@ -1655,77 +1655,77 @@
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>236</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>Version 5/140515 of Dynamic Tables by Jesse McGrew begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>237</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
         <key>Line</key><integer>5</integer>
         <key>Title</key><string>Chapter 1 - New stuff</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>238</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
         <key>Line</key><integer>444</integer>
         <key>Title</key><string>Chapter 2 - Library replacements</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>239</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
         <key>Line</key><integer>446</integer>
         <key>Title</key><string>Section 1 - Using the dynamic blank bits</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>240</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>Version 8/140515 of Dynamic Objects (for Glulx only) by Jesse McGrew begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>241</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>7</integer>
         <key>Title</key><string>Chapter 1 - Cloning objects</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>242</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>16</integer>
         <key>Title</key><string>Section 1 - 'a new object cloned from'</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>243</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>70</integer>
         <key>Title</key><string>Section 2 - Cloning the property table</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>244</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>109</integer>
         <key>Title</key><string>Section 3 - Linking the new object into the world model</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>245</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>196</integer>
         <key>Title</key><string>Section 4 - Restoring the object's ability to relate, and possibly its relationships</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>246</key><dict>
-        <key>Filename</key><string>C:\Users\imeed\OneDrive\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
+        <key>Filename</key><string>C:\Users\Ian\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>420</integer>
         <key>Title</key><string>Section 5 - A hack to make block-valued properties work in cloned objects</string>
         <key>Level</key><integer>5</integer>
