@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Inform7\Extens
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 12697 words long.
+I've now read your source text, which is 12700 words long.
 
 
 -----------------------------------------------------
@@ -195,7 +195,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 134 files written as streams.
-CPU time: 2341 centiseconds
+CPU time: 2375 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

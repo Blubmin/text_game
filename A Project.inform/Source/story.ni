@@ -6,7 +6,7 @@ Include Locksmith by Emily Short.
 Include Dynamic Tables by Jesse McGrew.
 Include Dynamic Objects by Jesse McGrew.
 
-Release along with a website and an interpreter.
+Release along with a cover art, a website and an interpreter.
 
 The player is in the Rotunda.
 
